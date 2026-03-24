@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anaprod</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body class="flex flex-col min-h-screen bg-gray-50 text-gray-800">
+
+    <header class="bg-green-900 text-white sticky top-0 z-10 shadow-lg">
+        <div class="flex items-center justify-between px-6 py-4">
+            <div class="text-xl font-bold">Anaprod</div>
+            <nav>
+                <ul class="flex gap-4 flex-wrap">
+                    <li><a href="#inicio" class="hover:bg-green-800 px-3 py-2 rounded transition">Inicio (Portada)</a>
+                    </li>
+                    <li><a href="#que-es-anaprod" class="hover:bg-green-800 px-3 py-2 rounded transition">¿Qué es
+                            Anaprod?</a></li>
+                    <li><a href="#organizacion" class="hover:bg-green-800 px-3 py-2 rounded transition">Organización</a>
+                    </li>
+                    <li><a href="#como-ser-socio" class="hover:bg-green-800 px-3 py-2 rounded transition">Ser Socio</a>
+                    </li>
+                    <li><a href="#nuestros-proyectos"
+                            class="hover:bg-green-800 px-3 py-2 rounded transition">Proyectos</a></li>
+                    <li><a href="#como-apoyar" class="hover:bg-green-800 px-3 py-2 rounded transition">Involucrate</a>
+                    </li>
+                    <li><a href="#contacto" class="hover:bg-green-800 px-3 py-2 rounded transition">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="flex-1 w-full">
+        <section id="inicio" class="w-full min-h-screen flex items-center justify-center"
+            style="background-image: url('img/directorio.jpg'); background-size: cover; background-position: center; background-attachment: fixed;">
+            <div class="p-8 rounded-lg text-center text-white">
+                <h1 class="text-8xl font-bold mb-4">ANAPROD</h1>
+                <p class="text-3xl">Asociacion Nacional de Productores</p>
+                <p class="text-lg">Promoviendo el desarrollo sostenible y fortaleciendo a los productores de
+                    Bolivia</p>
+            </div>
+        </section>
+
+        <section id="que-es-anaprod" class="py-20 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+                        ¿Qué es ANAPROD?
+                    </h2>
+                    <p class="text-lg text-gray-600 max-w-3xl mx-auto">
+                        Somos una organización dedicada a fortalecer y promover el desarrollo sostenible
+                        de los productores bolivianos
+                    </p>
+                </div>
+
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
+                    <div
+                        class="bg-gradient-to-br from-emerald-50 to-green-50 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+                        <div class="bg-emerald-600 w-14 h-14 rounded-xl flex items-center justify-center mb-6">
+                            <Target class="w-7 h-7 text-white" />
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-4">Misión</h3>
+                        <p class="text-gray-700 leading-relaxed">
+                            Fortalecer la capacidad productiva y organizacional de los productores bolivianos,
+                            promoviendo prácticas sostenibles y generando oportunidades de desarrollo económico
+                            y social en sus comunidades.
+                        </p>
+                    </div>
+
+                    <div
+                        class="bg-gradient-to-br from-teal-50 to-cyan-50 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+                        <div class="bg-teal-600 w-14 h-14 rounded-xl flex items-center justify-center mb-6">
+                            <Eye class="w-7 h-7 text-white" />
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-4">Visión</h3>
+                        <p class="text-gray-700 leading-relaxed">
+                            Ser la organización líder en Bolivia que une y representa a los productores,
+                            siendo reconocida por su compromiso con el desarrollo sostenible y la mejora
+                            continua de la calidad de vida de sus asociados.
+                        </p>
+                    </div>
+
+                    <div
+                        class="bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+                        <div class="bg-green-600 w-14 h-14 rounded-xl flex items-center justify-center mb-6">
+                            <Heart class="w-7 h-7 text-white" />
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-4">Valores</h3>
+                        <ul class="text-gray-700 leading-relaxed space-y-2">
+                            <li class="flex items-start">
+                                <span class="text-green-600 mr-2">•</span>
+                                <span>Solidaridad y cooperación</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-green-600 mr-2">•</span>
+                                <span>Sostenibilidad ambiental</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-green-600 mr-2">•</span>
+                                <span>Transparencia y honestidad</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-green-600 mr-2">•</span>
+                                <span>Inclusión y equidad</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div
+                        class="bg-gradient-to-br from-lime-50 to-green-50 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+                        <div class="bg-lime-600 w-14 h-14 rounded-xl flex items-center justify-center mb-6">
+                            <Link2 class="w-7 h-7 text-white" />
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-4">Cadena Verde</h3>
+                        <p class="text-gray-700 leading-relaxed">
+                            Conectamos a productores, procesadores y consumidores en una red sostenible
+                            que promueve productos ecológicos y prácticas responsables, fortaleciendo
+                            toda la cadena de valor agrícola.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="organizacion" class="w-full bg-white rounded-lg shadow p-6 mb-8">
+            <h2 class="text-3xl font-bold mb-4">Organización (Comités,Asociaciones,Productores)</h2>
+            <p class="mb-4 font-semibold">Submenu</p>
+            <ul class="grid grid-cols-2 md:grid-cols-3 gap-4">
+                <li class="bg-blue-50 p-3 rounded hover:bg-blue-100 transition">COCHABAMBA</li>
+                <li class="bg-blue-50 p-3 rounded hover:bg-blue-100 transition">POTOSI</li>
+                <li class="bg-blue-50 p-3 rounded hover:bg-blue-100 transition">CHUQUISACA</li>
+                <li class="bg-blue-50 p-3 rounded hover:bg-blue-100 transition">ORURO</li>
+                <li class="bg-blue-50 p-3 rounded hover:bg-blue-100 transition">LA PAZ</li>
+                <li class="bg-blue-50 p-3 rounded hover:bg-blue-100 transition">TARIJA</li>
+            </ul>
+        </section>
+
+        <section id="como-ser-socio" class="w-full bg-white rounded-lg shadow p-6 mb-8">
+            <h2 class="text-3xl font-bold mb-4">Como ser Socio de Anaprod?</h2>
+            <p class="mb-4">Contenido</p>
+            <h3 class="text-xl font-semibold mb-2">Requisitos</h3>
+            <p class="mb-4">Descripción de requisitos.</p>
+            <h3 class="text-xl font-semibold mb-2">Procedimiento de afiliación (Costo)</h3>
+            <p class="mb-6">Descripción del procedimiento.</p>
+            <h3 class="text-xl font-semibold mb-4">Formulario de Registro de Intención</h3>
+            <form class="space-y-4">
+                <div>
+                    <label for="nombre" class="block text-sm font-medium mb-1">Nombre</label>
+                    <input type="text" id="nombre" name="nombre"
+                        class="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                </div>
+                <div>
+                    <label for="apellido" class="block text-sm font-medium mb-1">Apellido</label>
+                    <input type="text" id="apellido" name="apellido"
+                        class="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                </div>
+                <div>
+                    <label for="telefono" class="block text-sm font-medium mb-1">Numero de teléfono</label>
+                    <input type="tel" id="telefono" name="telefono"
+                        class="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                </div>
+                <div>
+                    <label for="email" class="block text-sm font-medium mb-1">Correo electrónico</label>
+                    <input type="email" id="email" name="email"
+                        class="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                </div>
+                <div>
+                    <label for="direccion" class="block text-sm font-medium mb-1">Dirección</label>
+                    <input type="text" id="direccion" name="direccion"
+                        class="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                </div>
+                <input type="submit" value="Enviar"
+                    class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 transition cursor-pointer font-medium">
+            </form>
+        </section>
+
+        <section id="nuestros-proyectos" class="w-full bg-white rounded-lg shadow p-6 mb-8">
+            <h2 class="text-3xl font-bold mb-4">Nuestros proyectos</h2>
+            <p class="mb-4">contenido</p>
+            <h3 class="text-xl font-semibold mb-2">Tara</h3>
+            <p class="mb-4">Descripción de Tara.</p>
+            <h3 class="text-xl font-semibold mb-2">Generando nuevos proyectos.</h3>
+            <p>Descripción.</p>
+        </section>
+
+        <section id="como-apoyar" class="w-full bg-white rounded-lg shadow p-6 mb-8">
+            <h2 class="text-3xl font-bold mb-4">Como puedes apoyar a Anaprod</h2>
+            <p class="mb-4">Contenido</p>
+            <h3 class="text-xl font-semibold mb-2">Donaciones</h3>
+            <p class="mb-4">Información sobre donaciones.</p>
+            <h3 class="text-xl font-semibold mb-2">Voluntariado</h3>
+            <p>Información sobre voluntariado.</p>
+        </section>
+    </main>
+
+    <footer class="bg-gradient-to-br from-gray-900 to-emerald-900 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
+                <div>
+                    <div class="flex items-center space-x-3 mb-6">
+                        <div class="bg-emerald-600 p-2 rounded-lg">
+                            <Sprout class="w-6 h-6 text-white" />
+                        </div>
+                        <span class="text-2xl font-bold">ANAPROD</span>
+                    </div>
+                    <p class="text-emerald-100 leading-relaxed mb-4">
+                        Asociación Nacional de Productores, fortaleciendo el desarrollo sostenible en Bolivia.
+                    </p>
+                    <div class="flex space-x-3">
+                        <a href="#" class="bg-white/10 p-2 rounded-lg hover:bg-emerald-600 transition-colors">
+                            <Facebook class="w-5 h-5" />
+                        </a>
+                        <a href="#" class="bg-white/10 p-2 rounded-lg hover:bg-emerald-600 transition-colors">
+                            <Twitter class="w-5 h-5" />
+                        </a>
+                        <a href="#" class="bg-white/10 p-2 rounded-lg hover:bg-emerald-600 transition-colors">
+                            <Instagram class="w-5 h-5" />
+                        </a>
+                    </div>
+                </div>
+
+                <div>
+                    <h3 class="text-lg font-bold mb-4">Enlaces Rápidos</h3>
+                    <ul class="space-y-2">
+                        <li>
+                            <a href="#que-es" class="text-emerald-100 hover:text-white transition-colors">
+                                ¿Qué es ANAPROD?
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#organizacion" class="text-emerald-100 hover:text-white transition-colors">
+                                Organización
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#socio" class="text-emerald-100 hover:text-white transition-colors">
+                                Ser Socio
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#proyectos" class="text-emerald-100 hover:text-white transition-colors">
+                                Proyectos
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#apoyar" class="text-emerald-100 hover:text-white transition-colors">
+                                Cómo Apoyar
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-lg font-bold mb-4">Contacto</h3>
+                    <ul class="space-y-3">
+                        <li class="flex items-start">
+
+                            <span class="text-emerald-100">
+                                Av. Principal #123
+                                <br />
+                                La Paz, Bolivia
+                            </span>
+                        </li>
+                        <li class="flex items-center">
+
+                            <span class="text-emerald-100">+591 2 1234567</span>
+
+                        </li>
+                        <li class="flex items-center">
+
+                            <span class="text-emerald-100">+591 70000000</span>
+
+                        </li>
+                        <li class="flex items-center">
+                            <div>
+                                <Mail class="w-5 h-5 mr-2 flex-shrink-0 text-emerald-400" />
+
+                            </div>
+
+
+                            <span class="text-emerald-100">info@anaprod.bo</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-lg font-bold mb-4">Regiones</h3>
+                    <ul class="space-y-2 text-emerald-100">
+                        <li>Cochabamba</li>
+                        <li>Potosí</li>
+                        <li>Sucre</li>
+                        <li>Oruro</li>
+                        <li>La Paz</li>
+                        <li>Tarija</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-t border-white/20 pt-8">
+                <p class="text-center text-emerald-100">
+                    {new Date().getFullYear()} ANAPROD - Asociación Nacional de Productores. Todos los derechos
+                    reservados.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

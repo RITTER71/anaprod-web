@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background: #f5f7fb;
+    color: #333;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background: #006419;
+    color: #fff;
+    padding: 1rem 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.18);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.logo {
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.45rem 0.75rem;
+    border-radius: 4px;
+    transition: background 0.2s ease;
+}
+
+nav a:hover,
+nav a:focus {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+main {
+    padding: 2rem 1.2rem;
+    margin: 0;
+    flex: 1;
+}
+
+section {
+    margin-bottom: 2rem;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.08);
+    padding: 1.4rem;
+}
+
+h1,
+h2 {
+    margin: 0 0 0.8rem 0;
+}
+
+.hero {
+    background: #2563eb;
+    color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+footer {
+    background: #1e3a8a;
+    color: #fff;
+    padding: 1rem 1.2rem;
+    text-align: center;
+}
+
+@media (max-width: 720px) {
+    nav ul {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+}
