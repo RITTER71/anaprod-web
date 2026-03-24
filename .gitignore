@@ -1,0 +1,36 @@
+# --- Generales y Sistema ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+
+# --- Desarrollo con Go (Golang) ---
+# Binarios compilados
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+bin/
+
+# --- Hugo (Generador de Sitios Estáticos) ---
+# Carpeta donde se genera la web final (no se suele subir el código fuente)
+public/
+resources/_gen/
+.hugo_build.lock
+hugo_stats.json
+
+# --- Node.js / Tailwind CSS ---
+# Dependencias pesadas
+node_modules/
+dist/
+.env
+
+# --- Producción Audiovisual (Opcional) ---
+# Si guardas clips de video o proxies en la misma carpeta
+*.mp4
+*.mov
+*.wav
+*.prproj
+*.drp
