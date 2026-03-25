@@ -117,7 +117,7 @@
 
                 <div class="flex justify-center">
                     <a href="#como-apoyar"
-                        class="inline-block text-lg sm:text-2xl md:text-3xl lg:text-4xl hover:bg-green-700 bg-green-600 text-white px-6 sm:px-8 md:px-10 py-3 sm:py-4 md:py-5 rounded-xl shadow-lg transition transform hover:scale-105 font-semibold">
+                        class="inline-block text-lg sm:text-2xl md:text-3xl lg:text-4xl hover:bg-green-700 bg-lime-400 text-green-800 px-6 sm:px-8 md:px-10 py-3 sm:py-4 md:py-5 rounded-xl shadow-lg transition transform hover:scale-105 font-semibold">
                         donar
                     </a>
                 </div>
@@ -754,7 +754,7 @@
                 <!-- Proyecto Tara -->
                 <div class="grid md:grid-cols-2 gap-12 items-center mb-16">
                     <div class="space-y-6">
-                        <div class="inline-block bg-green-600 text-white px-6 py-2 rounded-full text-sm font-bold">
+                        <div class="inline-block bg-lime-400 text-green-800 px-6 py-2 rounded-lg text-sm font-bold">
                             PROYECTO ESTRATÉGICO
                         </div>
                         <h3 class="text-3xl md:text-4xl font-bold text-green-700">Cultivo de Tara</h3>
@@ -883,7 +883,7 @@
                     </div>
 
                     <div class="space-y-6 order-2 md:order-1">
-                        <div class="inline-block bg-emerald-600 text-white px-6 py-2 rounded-full text-sm font-bold">
+                        <div class="inline-block bg-lime-400 text-green-800 px-6 py-2 rounded-lg text-sm font-bold">
                             VISIÓN FUTURA
                         </div>
                         <h3 class="text-3xl md:text-4xl font-bold text-green-700">Generando Nuevos Proyectos</h3>
@@ -980,10 +980,11 @@
                             <p class="text-gray-700 mb-4">
                                 Esta donación se puede realizar 1 o más veces.
                             </p>
-                            <button
-                                class="w-full bg-gradient-to-r from-green-600 to-emerald-600 text-white font-bold py-3 px-6 rounded-lg hover:shadow-lg transition transform hover:scale-105 mb-4">
+                            <a href="#contacto"
+                                class="w-full block text-center bg-gradient-to-r from-green-600 to-emerald-600 text-white font-bold py-3 px-6 rounded-lg hover:shadow-lg transition transform hover:scale-105 mb-4">
                                 Haz tu donación
-                            </button>
+                            </a>
+
                             <p class="text-green-600 font-semibold text-center">
                                 GRACIAS POR TU APOYO, UN REPRESENTANTE DE ANAPROD SE COMUNICARÁ CONTIGO.
                             </p>
@@ -997,10 +998,10 @@
                                 tus datos y un
                                 representante se comunicará contigo
                             </p>
-                            <button
-                                class="w-full bg-gradient-to-r from-emerald-600 to-green-600 text-white font-bold py-3 px-6 rounded-lg hover:shadow-lg transition transform hover:scale-105">
+                            <a href="#contacto"
+                                class="w-full block text-center bg-gradient-to-r from-emerald-600 to-green-600 text-white font-bold py-3 px-6 rounded-lg hover:shadow-lg transition transform hover:scale-105">
                                 Haz tu donación
-                            </button>
+                            </a>
                         </div>
                     </div>
 
@@ -1018,10 +1019,10 @@
                             aprender y
                             generar experiencia profesional.
                         </p>
-                        <button
-                            class="w-full bg-gradient-to-r from-emerald-600 to-green-600 text-white font-bold py-3 px-6 rounded-lg hover:shadow-lg transition transform hover:scale-105">
+                        <a href="#contacto"
+                            class="w-full block text-center bg-gradient-to-r from-emerald-600 to-green-600 text-white font-bold py-3 px-6 rounded-lg hover:shadow-lg transition transform hover:scale-105">
                             Deja tus datos
-                        </button>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -1040,22 +1041,22 @@
                         <div class="grid md:grid-cols-3 gap-6">
                             <div>
                                 <label for="nombre" class="block text-sm font-semibold text-gray-700 mb-2">Nombre:
-                                    (campo obligatorio)</label>
-                                <input type="text" id="nombre" name="nombre" required
+                                </label>
+                                <input type="text" id="nombre" name="nombre" required placeholder="campo obligatorio"
                                     class="w-full border-2 border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:border-green-600 focus:ring-2 focus:ring-green-200 transition">
                             </div>
                             <div>
                                 <label for="apellido-paterno"
-                                    class="block text-sm font-semibold text-gray-700 mb-2">Apellido Paterno(campo
-                                    obligatorio)</label>
+                                    class="block text-sm font-semibold text-gray-700 mb-2">Apellido Paterno</label>
                                 <input type="text" id="apellido-paterno" name="apellido-paterno" required
+                                    placeholder="apellido Paterno"
                                     class="w-full border-2 border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:border-green-600 focus:ring-2 focus:ring-green-200 transition">
                             </div>
                             <div>
                                 <label for="apellido-materno"
-                                    class="block text-sm font-semibold text-gray-700 mb-2">Apellido Materno(campo
-                                    obligatorio)</label>
+                                    class="block text-sm font-semibold text-gray-700 mb-2">Apellido Materno</label>
                                 <input type="text" id="apellido-materno" name="apellido-materno" required
+                                    placeholder="apellido materno"
                                     class="w-full border-2 border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:border-green-600 focus:ring-2 focus:ring-green-200 transition">
                             </div>
                         </div>
@@ -1063,15 +1064,13 @@
                         <div class="grid md:grid-cols-2 gap-6">
                             <div>
                                 <label for="celular"
-                                    class="block text-sm font-semibold text-gray-700 mb-2">Celular:(campo
-                                    obligatorio)</label>
-                                <input type="tel" id="celular" name="celular" required
+                                    class="block text-sm font-semibold text-gray-700 mb-2">Celular:</label>
+                                <input type="tel" id="celular" name="celular" required placeholder="celular"
                                     class="w-full border-2 border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:border-green-600 focus:ring-2 focus:ring-green-200 transition">
                             </div>
                             <div>
-                                <label for="email" class="block text-sm font-semibold text-gray-700 mb-2">Email:(campo
-                                    obligatorio)</label>
-                                <input type="email" id="email" name="email" required
+                                <label for="email" class="block text-sm font-semibold text-gray-700 mb-2">Email:</label>
+                                <input type="email" id="email" name="email" required placeholder="tu correo electrónico"
                                     class="w-full border-2 border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:border-green-600 focus:ring-2 focus:ring-green-200 transition">
                             </div>
                         </div>
@@ -1213,7 +1212,7 @@
                     <h3 class="text-lg font-bold mb-4">Enlaces Rápidos</h3>
                     <ul class="space-y-2">
                         <li>
-                            <a href="#que-es" class="text-emerald-100 hover:text-white transition-colors">
+                            <a href="#que-es-anaprod" class="text-emerald-100 hover:text-white transition-colors">
                                 ¿Qué es ANAPROD?
                             </a>
                         </li>
@@ -1223,17 +1222,17 @@
                             </a>
                         </li>
                         <li>
-                            <a href="#proyectos" class="text-emerald-100 hover:text-white transition-colors">
+                            <a href="#nuestros-proyectos" class="text-emerald-100 hover:text-white transition-colors">
                                 Proyectos
                             </a>
                         </li>
                         <li>
-                            <a href="#afiliación" class="text-emerald-100 hover:text-white transition-colors">
+                            <a href="#como-ser-socio" class="text-emerald-100 hover:text-white transition-colors">
                                 Afililación
                             </a>
                         </li>
                         <li>
-                            <a href="#involucrate" class="text-emerald-100 hover:text-white transition-colors">
+                            <a href="#como-apoyar" class="text-emerald-100 hover:text-white transition-colors">
                                 Involúcrate
                             </a>
                         </li>
