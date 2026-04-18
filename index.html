@@ -5,7 +5,10 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Anaprod</title>
-        <script src="https://cdn.tailwindcss.com"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+        <link rel="icon" type="image/png" href="img/LOGO ANAPROD_beige_.png" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
 
     </head>
 
@@ -53,7 +56,7 @@
                         </li>
 
                         <li><a href="#nuestros-proyectos"
-                                class="hover:bg-[#a2f102] hover:text-green-800 px-3 py-2 rounded transition">Proyectos</a>
+                                class="hover:bg-[#a2f102] hover:text-green-800 px-3 py-2 rounded transition">Inversiones/Alianzas</a>
                         </li>
 
                         <li><a href="#como-ser-socio"
@@ -84,7 +87,7 @@
                     <li><a href="#organizacion"
                             class="block hover:bg-green-200 px-3 py-2 rounded transition">Organización</a></li>
                     <li><a href="#nuestros-proyectos"
-                            class="block hover:bg-green-200 px-3 py-2 rounded transition">Proyectos</a></li>
+                            class="block hover:bg-green-200 px-3 py-2 rounded transition">Inversiones/Alianzas</a></li>
                     <li><a href="#como-ser-socio"
                             class="block hover:bg-green-200 px-3 py-2 rounded transition">Afiliación</a></li>
                     <li><a href="#como-apoyar"
@@ -127,7 +130,7 @@
     </script>
 
         <main class="flex-1 ">
-
+            <!--///////// portada de INICIO -->
             <section id="inicio"
                 class="w-full min-h-screen flex items-center justify-center"
                 style="background-image: url('img/fondo ANAPROD.png'); background-size: cover; background-position: center; background-attachment: fixed;">
@@ -141,7 +144,7 @@
                     </div>
 
                     <p
-                        class="text-[#169512] text-xl sm:text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-serif leading-tight mb-4 sm:mb-6">
+                        class="text-[#7f2b00] text-xl sm:text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-serif leading-tight mb-4 sm:mb-6">
 
                         Asociación Nacional de Productoras y Productores
                         <br>
@@ -156,12 +159,6 @@
 
                     <br>
 
-                    <div class="flex justify-center">
-                        <a href="#como-apoyar"
-                            class="inline-block text-lg sm:text-2xl md:text-3xl lg:text-4xl hover:bg-green-700 hover:text-white bg-[#a2f102] text-green-800 px-6 sm:px-8 md:px-10 py-3 sm:py-4 md:py-5 rounded-xl shadow-lg transition transform hover:scale-105 font-semibold">
-                            donar
-                        </a>
-                    </div>
                 </div>
             </section>
 
@@ -175,7 +172,7 @@
                     <div class="p-4 sm:p-8 md:p-16 lg:p-24 xl:p-36">
 
                         <h3
-                            class="text-lime-400 text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold">ANAPROD
+                            class="text-amber-100 text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold">ANAPROD
                         </h3>
                         <p
                             class="text-amber-100 text-sm sm:text-base md:text-lg">La
@@ -206,32 +203,140 @@
                     </div>
 
                 </div>
+                <!-- Saludo -->
 
-                <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <section id="saludo" class="bg-[#663300] py-12">
+                    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                        <div
+                            class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center bg-white/10 border border-white/20 rounded-3xl p-6 sm:p-10 shadow-2xl backdrop-blur-sm">
+                            <div
+                                class="flex flex-col items-center justify-center">
+                                <div
+                                    class="relative overflow-hidden rounded-full w-96 h-96 shadow-2xl border-4 border-white/20">
+                                    <img
+                                        src="img/Saludos Oficial/foto_presi _.webp"
+                                        alt="Presidenta de ANAPROD"
+                                        class="object-cover w-full h-full">
+                                </div>
+
+                                <p
+                                    class="text-center text-amber-100 font-semibold mt-4">
+                                    Sara De La Barra Delgadillo
+                                </p>
+
+                                <p
+                                    class="text-center text-amber-100 font-semibolD">
+
+                                    PRESIDENTA DIRECTORIO NACIONAL ANAPROD
+                                </p>
+                            </div>
+
+                            <div class="text-lime-100">
+
+                                <p
+                                    class="text-base sm:text-lg leading-relaxed space-y-4">
+                                    Tengo el honor de dirigirme a ustedes como
+                                    presidenta de ANAPROD, una asociación que
+                                    nace del trabajo, la unión y la visión de
+                                    pequeños productores y productoras
+                                    comprometidos con el desarrollo sostenible
+                                    de nuestro país.
+                                </p>
+                                <p
+                                    class="text-base sm:text-lg leading-relaxed space-y-4">
+                                    Somos una asociación que se encuentra en
+                                    Bolivia, con presencia en seis
+                                    departamentos: La Paz, Cochabamba,
+                                    Chuquisaca, Tarija, Santa Cruz y Potosí.
+                                </p>
+                                <p
+                                    class="text-base sm:text-lg leading-relaxed space-y-4">
+                                    Nuestro trabajo se basa en el
+                                    fortalecimiento de cadenas verdes de valor,
+                                    apostando por una producción responsable y
+                                    amigable con el medio ambiente.
+                                </p>
+                                <p
+                                    class="text-base sm:text-lg leading-relaxed space-y-4">
+                                    La primera cadena que impulsamos como
+                                    asociación es la tara, un recurso de gran
+                                    potencial productivo, social y ambiental,
+                                    que representa una oportunidad real para
+                                    mejorar la calidad de vida de nuestras
+                                    familias productoras.
+                                </p>
+                                <p
+                                    class="text-base sm:text-lg leading-relaxed space-y-4">
+                                    Contamos con el valioso apoyo de la ONG
+                                    SOCODEVI, de Canadá, que nos ha acompañado
+                                    en el proceso de conformación de nuestra
+                                    asociación y ha sido parte fundamental en la
+                                    construcción de nuestra planta
+                                    industrializadora Boltrade, ubicada en
+                                    Tomina, Sucre.
+                                </p>
+                                <p
+                                    class="text-base sm:text-lg leading-relaxed space-y-4">
+                                    Les invitamos a conocernos más y a ser parte
+                                    activa de este camino que recorremos juntos.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+
+                        <img src="img/Saludos Oficial/asamb5.webp" alt
+                            class="w-full h-auto mt-10 mx-auto">
+
+                        <div class="grid grid-cols-2">
+
+                            <img src="img/Saludos Oficial/1.webp" alt>
+                            <img src="img/Saludos Oficial/2.webp" alt>
+                            <img src="img/Saludos Oficial/3.webp" alt>
+                            <img src="img/Saludos Oficial/4.webp" alt>
+                        </div>
+
+                    </div>
+
+                </section>
+
+                <!-- organizacion -->
+
+                <div class=" max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
                     <div
-                        class="grid md:grid-cols-2 lg:grid-cols-3 p-4 sm:p-8 md:p-12 lg:p-16 xl:p-20 gap-8 mb-16">
+                        class="bg-white/10 border border-white/20 rounded-3xl p-4 text-center">
+                        <h2
+                            class="text-[#7f2b00] text-2xl lg:text-7xl font-bold mt-20">ORGANIZACIÓN</h2>
+                    </div>
+
+                    <div
+                        class="grid md:grid-cols-2 lg:grid-cols-3 p-3 sm:p-8 md:p-12 lg:p-16 xl:p-20 gap-8 mb-16">
+
                         <div
                             class="bg-gradient-to-br from-emerald-800 to-green-950 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+
                             <div
-                                class="bg-lime-600 w-14 h-14 rounded-xl flex items-center justify-center mb-6">
-                                <svg class="w-7 h-7 text-white" fill="none"
-                                    stroke="currentColor" viewBox="0 0 24 24">
-                                    <circle cx="12" cy="12" r="1" />
-                                    <circle cx="12" cy="12" r="5" />
-                                    <circle cx="12" cy="12" r="9" />
-                                </svg>
+                                class="bg-[#FBE8DA] w-10 h-10 rounded-full flex items-center justify-center mb-6">
+
                             </div>
 
                             <!-- vision -->
+
                             <h3
-                                class="text-2xl font-bold text-lime-400 mb-4">Visión</h3>
-                            <p class="text-[#FBE8DA] leading-relaxed">
-                                Promover la diversificación agropecuaria
-                                sostenible y competitiva para las familias
+                                class="text-2xl font-bold text-[#FBE8DA] mb-4">Visión</h3>
+                            <p
+                                class="text-[#FBE8DA] leading-relaxed">
+                                Promover la diversificación
+                                agropecuaria
+                                sostenible y competitiva para las
+                                familias
                                 miembro,
-                                con una estructura organizacional eficaz,
-                                eficiente, autosostenible y respetuosa de sus
+                                con una estructura organizacional
+                                eficaz,
+                                eficiente, autosostenible y
+                                respetuosa de sus
                                 valores y principios.
                             </p>
                         </div>
@@ -239,9 +344,11 @@
                         <div
                             class="bg-gradient-to-br from-emerald-800 to-green-950 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">
                             <div
-                                class="bg-lime-600 w-14 h-14 rounded-xl flex items-center justify-center mb-6">
-                                <svg class="w-7 h-7 text-white" fill="none"
-                                    stroke="currentColor" viewBox="0 0 24 24">
+                                class="bg-amber-100 w-10 h-10 rounded-full flex items-center justify-center mb-6">
+                                <svg class="w-7 h-7 text-white"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    viewBox="0 0 24 24">
                                     <path
                                         d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
                                     <path
@@ -249,29 +356,31 @@
                                 </svg>
                             </div>
                             <h3
-                                class="text-2xl font-bold text-lime-400 mb-4">Misión</h3>
-                            <p class="text-[#FBE8DA] leading-relaxed">
-                                Ser una organización asociativa innovadora que
-                                mejora las condiciones de vida de sus
-                                familias miembro con igualdad entre mujeres y
-                                hombres, y amigables con el medio ambiente.
+                                class="text-2xl font-bold text-[#FBE8DA] mb-4">Misión</h3>
+                            <p
+                                class="text-[#FBE8DA] leading-relaxed">
+                                Ser una organización asociativa
+                                innovadora que
+                                mejora las condiciones de vida de
+                                sus
+                                familias miembro con igualdad entre
+                                mujeres y
+                                hombres, y amigables con el medio
+                                ambiente.
                             </p>
                         </div>
 
                         <div
                             class="bg-gradient-to-br from-emerald-800 to-green-950 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">
                             <div
-                                class="bg-lime-600 w-14 h-14 rounded-xl flex items-center justify-center mb-6">
-                                <svg class="w-7 h-7 text-white" fill="none"
-                                    stroke="currentColor" viewBox="0 0 24 24">
-                                    <path
-                                        d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.658 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1" />
-                                </svg>
+                                class="bg-amber-100 w-10 h-10 rounded-full flex items-center justify-center mb-6">
+
                             </div>
                             <h3
-                                class="text-2xl font-bold text-lime-400 mb-4">Valores</h3>
+                                class="text-2xl font-bold text-[#FBE8DA] mb-4">Valores</h3>
 
-                            <p class="text-[#FBE8DA] leading-relaxed">
+                            <p
+                                class="text-[#FBE8DA] leading-relaxed">
 
                                 • La responsabilidad personal
                                 <br>
@@ -288,22 +397,20 @@
                             <div
                                 class="bg-gradient-to-br from-emerald-800 to-green-950 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">
                                 <div
-                                    class="bg-lime-600 w-14 h-14 rounded-xl flex items-center justify-center mb-6">
-                                    <svg class="w-7 h-7 text-white" fill="none"
-                                        stroke="currentColor"
-                                        viewBox="0 0 24 24">
-                                        <path
-                                            d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.658 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1" />
-                                    </svg>
+                                    class="bg-amber-100 w-10 h-10 rounded-full flex items-center justify-center mb-6">
+
                                 </div>
                                 <h3
-                                    class="text-2xl font-bold text-lime-400 mb-4">Principios</h3>
-                                <p class="text-[#FBE8DA] leading-relaxed">
-                                    • Asociación abierta y voluntaria
+                                    class="text-2xl font-bold text-[#FBE8DA] mb-4">Principios</h3>
+                                <p
+                                    class="text-[#FBE8DA] leading-relaxed">
+                                    • Asociación abierta y
+                                    voluntaria
                                     <br>
                                     • Igualdad y no discriminación
                                     <br>
-                                    • Participación económica equitativa de las
+                                    • Participación económica
+                                    equitativa de las
                                     familias miembro
                                     <br>
                                     • Autonomía e independencia
@@ -317,29 +424,29 @@
                                 <div
                                     class="bg-gradient-to-br from-emerald-800 to-green-950 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">
                                     <div
-                                        class="bg-lime-600 w-14 h-14 rounded-xl flex items-center justify-center mb-6">
-                                        <svg class="w-7 h-7 text-white"
-                                            fill="none" stroke="currentColor"
-                                            viewBox="0 0 24 24">
-                                            <path
-                                                d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.658 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1" />
-                                        </svg>
+                                        class="bg-amber-100 w-10 h-10 rounded-full flex items-center justify-center mb-6">
+
                                     </div>
                                     <h3
-                                        class="text-2xl font-bold text-lime-400 mb-4">Pilares
+                                        class="text-2xl font-bold text-[#FBE8DA] mb-4">Pilares
                                         estratégicos</h3>
 
-                                    <div class="flex justify-center">
+                                    <div
+                                        class="flex justify-center">
                                         <div
                                             class="text-left text-[#FBE8DA] space-y-1">
-                                            <p>• Identificación de cultivos
+                                            <p>• Identificación de
+                                                cultivos
                                                 estratégicos</p>
-                                            <p>• Igualdad de género</p>
+                                            <p>• Igualdad de
+                                                género</p>
                                             <p>• Conservación del
                                                 medioambiente</p>
-                                            <p>• Aplicación de valores y
+                                            <p>• Aplicación de
+                                                valores y
                                                 principios <span>--
-                                                    cooperativos</span> </p>
+                                                    cooperativos</span>
+                                            </p>
                                         </div>
                                     </div>
 
@@ -348,34 +455,39 @@
                                 <div
                                     class="bg-gradient-to-br from-emerald-800 to-green-950 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">
                                     <div
-                                        class="bg-lime-600 w-14 h-14 rounded-xl flex items-center justify-center mb-6">
-                                        <svg class="w-7 h-7 text-white"
-                                            fill="none" stroke="currentColor"
-                                            viewBox="0 0 24 24">
-                                            <path
-                                                d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.658 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1" />
-                                        </svg>
+                                        class="bg-amber-100 w-10 h-10 rounded-full flex items-center justify-center mb-6">
+
                                     </div>
                                     <h3
-                                        class="text-2xl font-bold text-lime-400 mb-4">Líneas
+                                        class="text-2xl font-bold text-[#FBE8DA] mb-4">Líneas
                                         de Acción</h3>
 
-                                    <div class="flex justify-center">
+                                    <div
+                                        class="flex justify-center">
                                         <div
                                             class="text-left text-[#FBE8DA] space-y-1">
-                                            <p>• Fortalecer su estructura
-                                                asociativa promoviendo una
-                                                gobernanza transparente, para
-                                                la toma de decisiones
+                                            <p>• Consolidar su
+                                                estructura
+                                                asociativa
+                                                promoviendo una
+                                                gobernanza
+                                                transparente, para
+                                                la toma de
+                                                decisiones
                                                 inclusivas</p>
-                                            <p>• Producir y comercializar
-                                                productos agropecuarios con
+                                            <p>• Producir y
+                                                comercializar
+                                                productos
+                                                agropecuarios con
                                                 mercado seguro</p>
                                             <p>• Gestionar empresas
-                                                agroindustriales, que le den
+                                                agroindustriales,
+                                                que le den
                                                 valor agregado</p>
-                                            <p>• Implementar proyectos de
-                                                desarrollo rural, con recursos
+                                            <p>• Implementar
+                                                proyectos de
+                                                desarrollo rural,
+                                                con recursos
                                                 nacionales e
                                                 internacionales</p>
                                         </div>
@@ -386,96 +498,7 @@
                             </div>
 
                         </section>
-
-                        <!--------cadena de valor verde -------->
-
-                        <section class="w-full min-h-screen bg-cover bg-center"
-                            style="background-image: url('img/pareja.jpg');">
-
-                            <div
-                                class="grid grid-cols-1 md:grid-cols-2 gap-8 content-center p-4 sm:p-8 md:p-12 lg:p-16 xl:p-20">
-
-                                <!-- TITULO Y TEXTO  de cadena de valor verde -->
-                                <div class="flex flex-col gap-8">
-                                    <h2
-                                        class="text-lime-400 text-2xl md:text-5xl font-bold ">
-                                        Cadena
-                                        <br>
-                                        de Valor Verde
-
-                                    </h2>
-
-                                    <p
-                                        class="text-lime-100 text-base sm:text-lg md:text-xl lg:text-2xl leading-tight shadow-md rounded-lg bg-green-900/70 p-4">
-                                        En alianza con SOCODEVI,
-                                        ANAPROD ha priorizado la
-                                        Tara como cultivo
-                                        estratégico
-                                        para
-                                        la
-                                        generación de ingresos
-                                        económicos para sus familias
-                                        miembro.
-                                        El modelo asociativo garantiza una
-                                        visión de prosperidad a largo plazo.
-                                        Asegurando la redistribución justa de
-                                        las riquezas generadas.
-                                        Para eso, tiene como apoyo principal y
-                                        brazo comercial a Boltrade
-                                    </p>
-
-                                    <p
-                                        class="text-lime-100 text-base sm:text-lg md:text-xl lg:text-2xl leading-tight pg-4">
-                                        La Cadena de Valor Verde es un modelo de
-                                        desarrollo sostenible que
-                                        promueve la producción y consumo de
-                                        productos agrícolas de manera
-                                        responsable con el medio
-                                        ambiente. Este enfoque busca reducir el
-                                        impacto ambiental, fomentar prácticas
-                                        agrícolas
-                                        sostenibles y fortalecer la conexión
-                                        entre productores, procesadores y
-                                        consumidores.
-
-                                    </p>
-
-                                    <p
-                                        class="text-lime-100 text-base sm:text-lg md:text-xl lg:text-2xl leading-tight shadow-mdrounded-lg bg-green-900/70 p-4">
-                                        Al
-                                        adoptar
-                                        la Cadena Verde, se promueve la
-                                        conservación de los recursos naturales,
-                                        la biodiversidad y
-                                        el
-                                        bienestar de las comunidades rurales, al
-                                        tiempo que se ofrece a los consumidores
-                                        productos
-                                        de
-                                        alta calidad y respetuosos con el
-                                        entorno.
-                                    </p>
-
-                                </div>
-                                <!------------foto CADENA DE VALOR VERDE -------->
-                                <div
-                                    class="flex flex-col items-center justify-center p-4 sm:p-6 md:p-8 lg:p-10 xl:p-12 transition-shadow">
-                                    <img src="img/cadena verde.jpeg"
-                                        alt="Cadena Verde" class="rounded-2xl">
-
-                                    <p
-                                        class="mt-4  text-lime-400 text-base sm:text-lg md:text-xl shadow-md p-4 rounded-lg bg-green-900/70">
-
-                                        Para mayor información visita <a
-                                            href="https://www.boltrade.bo/"
-                                            class="text-lime-400 hover:underline font-bold">Boltrade</a>
-                                    </p>
-                                </div>
-                            </div>
-                        </section>
-
-                        <!-- ORGANIZACIONs -->
-
+                        <!--///////// organizacion -->
                         <section id="organizacion"
                             class="w-full min-h-screen flex items-center justify-center"
                             style="background-image: url('img/concejo.jpg'); background-size: cover; background-position: center; background-attachment: fixed;">
@@ -496,53 +519,78 @@
                                         </div>
 
                                         <div class="space-y-6">
-                                            <div
-                                                class="bg-white/10 border border-white/20 rounded-3xl p-6 text-center">
-                                                <h2
-                                                    class="text-lime-400 text-3xl lg:text-4xl font-bold">ORGANIZACIÓN</h2>
-                                            </div>
 
                                             <p
                                                 class="text-lime-100 text-lg md:text-xl leading-relaxed">
-                                                La estructura organizativa de
-                                                ANAPROD se basa en la
-                                                participación activa de todas
+                                                La estructura
+                                                organizativa de
+                                                ANAPROD se basa en
+                                                la
+                                                participación activa
+                                                de todas
                                                 las
-                                                familias productoras, comenzando
-                                                en los Comités Locales de
-                                                Productores de Tara (CLPT).
-                                                Estos comités son el primer
-                                                espacio de representación, donde
-                                                las familias expresan sus
-                                                necesidades, propuestas y
+                                                familias
+                                                productoras,
+                                                comenzando
+                                                en los Comités
+                                                Locales de
+                                                Productores de Tara
+                                                (CLPT).
+                                                Estos comités son el
+                                                primer
+                                                espacio de
+                                                representación,
+                                                donde
+                                                las familias
+                                                expresan sus
+                                                necesidades,
+                                                propuestas y
                                                 decisiones.
                                             </p>
                                             <p
                                                 class="text-lime-100 text-lg md:text-xl leading-relaxed">
-                                                Desde allí, sus representantes
-                                                (Delegada y Delegado) avanzan al
+                                                Desde allí, sus
+                                                representantes
+                                                (Delegada y
+                                                Delegado) avanzan al
                                                 Comité Municipal de
-                                                Productores de Tara (CMPT) que
-                                                articula y consolida las
-                                                prioridades de cada localidad,
-                                                garantizando que las voces de
-                                                las familias se traduzcan en
+                                                Productores de Tara
+                                                (CMPT) que
+                                                articula y consolida
+                                                las
+                                                prioridades de cada
+                                                localidad,
+                                                garantizando que las
+                                                voces de
+                                                las familias se
+                                                traduzcan en
                                                 acciones conjuntas.
                                             </p>
                                             <p
                                                 class="text-lime-100 text-lg md:text-xl leading-relaxed">
-                                                El modelo continúa con los
-                                                Comités Departamentales de
-                                                Productores de Tara (CDPT),
-                                                responsables de coordinar las
-                                                iniciativas regionales y
-                                                fortalecer la integración entre
-                                                municipios. Finalmente, estas
-                                                representaciones convergen en la
-                                                Asamblea General, máxima
-                                                instancia democrática donde se
+                                                El modelo continúa
+                                                con los
+                                                Comités
+                                                Departamentales de
+                                                Productores de Tara
+                                                (CDPT),
+                                                responsables de
+                                                coordinar las
+                                                iniciativas
+                                                regionales y
+                                                fortalecer la
+                                                integración entre
+                                                municipios.
+                                                Finalmente, estas
+                                                representaciones
+                                                convergen en la
+                                                Asamblea General,
+                                                máxima
+                                                instancia
+                                                democrática donde se
                                                 toman las decisiones
-                                                estratégicas y se elige al
+                                                estratégicas y se
+                                                elige al
                                                 Directorio.
                                             </p>
 
@@ -558,16 +606,21 @@
                                                 ✓</div>
                                             <p
                                                 class="text-sm sm:text-base md:text-lg text-lime-400 leading-relaxed text-left ">
-                                                Esta estructura en cadena
-                                                asegura que cada familia, desde
+                                                Esta estructura en
+                                                cadena
+                                                asegura que cada
+                                                familia, desde
                                                 su comunidad,
                                                 tenga un
                                                 rol
-                                                real en la orientación y el
-                                                futuro de ANAPROD, manteniendo
+                                                real en la
+                                                orientación y el
+                                                futuro de ANAPROD,
+                                                manteniendo
                                                 un sistema
                                                 inclusivo,
-                                                democrático y participativo.
+                                                democrático y
+                                                participativo.
                                             </p>
                                         </div>
                                     </div>
@@ -575,24 +628,86 @@
                             </div>
                         </section>
 
+                        <!--------cadena de valor verde -------->
+
+                        <!-- ORGANIZACIONs -->
+
                         <section id="presencia-nacional"
                             class="w-full bg-white py-10 ">
-                            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                                <div class="text-center mb-5 sm:mb-20">
+                            <div
+                                class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                                <div
+                                    class="text-center mb-5 sm:mb-20">
                                     <!-- Sección de Departamentos -->
                                     <div class="mt-5">
-                                        <div class="text-center mb-8 sm:mb-12">
+                                        <div
+                                            class="text-center mb-8 sm:mb-12">
                                             <h3
-                                                class="bg-green-800 text-lime-400 text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold rounded-lg">
+                                                class="bg-green-800 text-[#FBE8DA] text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold rounded-lg">
                                                 Presencia Nacional
                                             </h3>
+                                            <div
+                                                class="flex items-center justify-center mt-6 width-[100px]">
+                                                <p
+                                                    class=" text-green-950 text-lg sm:text-base md:text-lg sm:mt-3 px-2">
+                                                    Actualmente,
+                                                    tiene presencia
+                                                    en
+                                                    6 departamentos
+                                                    con 5000
+                                                    familias
+                                                    afiliadas. La
+                                                    estructura
+                                                    de ANAPROD
+                                                    permite que
+                                                    pueda
+                                                    ampliarse el
+                                                    campo de acción
+                                                    a
+                                                    nivel nacional.
+                                                </p>
+                                            </div>
+
+                                            <div
+                                                class="flex items-center justify-center mt-6">
+                                                <img
+                                                    class="w-1/2"
+                                                    src="img/Bolivia_SOCODEVI_6_dep_mapa internadino.png"
+                                                    alt>
+                                            </div>
                                             <p
                                                 class=" text-green-950 text-lg sm:text-base md:text-lg mt-2 sm:mt-3 px-2 ">
                                                 Conoce
                                                 nuestras
                                                 sedes
-                                                regionales y contactos en
+                                                regionales y
+                                                contactos en
                                                 Bolivia</p>
+
+                                            <p
+                                                class="bg-green-950 text-green-100 p-4 rounded-lg">
+                                                Anaprod está
+                                                presente en 6
+                                                departamentos de
+                                                Bolivia, con
+                                                sedes regionales que
+                                                coordinan
+                                                las actividades y
+                                                proyectos en
+                                                cada zona. A
+                                                continuación, se
+                                                detallan las
+                                                ubicaciones y
+                                                contactos de
+                                                nuestras sedes para
+                                                que puedas
+                                                comunicarte con
+                                                nosotros y conocer
+                                                más sobre
+                                                nuestras iniciativas
+                                                en cada
+                                                región.
+                                            </p>
                                         </div>
 
                                         <div
@@ -608,7 +723,8 @@
                                                     <h2
                                                         class="text-center text-2xl font-bold text-green-700 mb-4">COCHABAMBA</h2>
 
-                                                    <div class="space-y-4">
+                                                    <div
+                                                        class="space-y-4">
                                                         <div
                                                             class="bg-green-800 rounded-lg p-3 border-l-4 border-green-600 text-amber-100">
 
@@ -616,7 +732,9 @@
                                                                 class="text-sm font-semibold ">Contacto:</p>
                                                             <p
                                                                 class="text-amber-100">SARA
-                                                                DE LA BARRA
+                                                                DE
+                                                                LA
+                                                                BARRA
                                                                 DELGADILLO</p>
                                                             <p
                                                                 class="text-amber-200 text-sm">Celular:
@@ -692,7 +810,8 @@
                                                     <h2
                                                         class="text-center text-2xl font-bold text-green-700 mb-4">POTOSI</h2>
 
-                                                    <div class="space-y-4">
+                                                    <div
+                                                        class="space-y-4">
                                                         <div
                                                             class="bg-green-800 rounded-lg p-3 border-l-4 border-green-600 text-amber-100">
                                                             <p
@@ -745,7 +864,8 @@
                                                     <h2
                                                         class="text-center text-2xl font-bold text-green-700 mb-4">CHUQUISACA</h2>
 
-                                                    <div class="space-y-4">
+                                                    <div
+                                                        class="space-y-4">
                                                         <div
                                                             class="bg-green-800 rounded-lg p-3 border-l-4 border-green-600 text-amber-100">
 
@@ -823,7 +943,8 @@
                                                                 <li
                                                                     class="flex items-center"><span
                                                                         class="text-green-600 mr-2">•</span>
-                                                                    VILLA VACA
+                                                                    VILLA
+                                                                    VACA
                                                                     GUZMAN</li>
                                                                 <li
                                                                     class="flex items-center"><span
@@ -863,7 +984,8 @@
                                                     <h2
                                                         class="text-center text-2xl font-bold text-green-700 mb-4">TARIJA</h2>
 
-                                                    <div class="space-y-4">
+                                                    <div
+                                                        class="space-y-4">
                                                         <div
                                                             class="bg-green-800 rounded-lg p-3 border-l-4 border-green-600 text-amber-100">
                                                             <p
@@ -917,7 +1039,8 @@
                                                         class="text-center text-2xl font-bold text-green-700 mb-4">SANTA
                                                         CRUZ</h2>
 
-                                                    <div class="space-y-4">
+                                                    <div
+                                                        class="space-y-4">
                                                         <div
                                                             class="bg-green-800 rounded-lg p-3 border-l-4 border-green-600 text-amber-100">
                                                             <p
@@ -988,7 +1111,8 @@
                                                         class="text-center text-2xl font-bold text-green-700 mb-4">LA
                                                         PAZ</h2>
 
-                                                    <div class="space-y-4">
+                                                    <div
+                                                        class="space-y-4">
                                                         <div
                                                             class="bg-green-800 rounded-lg p-3 border-l-4 border-green-600 text-amber-100">
                                                             <p
@@ -1034,9 +1158,11 @@
                                         </div>
                                     </div>
 
-                                    <div class="flex justify-center p-8">
+                                    <div
+                                        class="flex justify-center p-8">
 
-                                        <a href="https://wa.me/59174869000"
+                                        <a
+                                            href="https://wa.me/59174869000"
                                             class="whatsapp-btn"
                                             target="_blank">
                                             <img
@@ -1080,11 +1206,485 @@
                                 </div>
                             </section>
 
+                            <!-- Inversiones y Alianzas -->
+
+                            <section id="nuestros-proyectos"
+                                class="w-full min-h-screen flex items-center justify-center py-20"
+                                style="background-image: url('img/fondo_titulos\ 2.png'); background-size: cover; background-position: center; background-attachment: fixed;">
+                                >
+
+                                <!----
+                                <section id="nuestros-proyectos"
+                                class="w-full min-h-screen flex items-center justify-center py-20"
+                                style="background-image: url('img/proyectos.jpg'); background-size: cover; background-position: center; background-attachment: fixed;">
+                                > ---- -->
+
+                                <div
+                                    class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+                                    <div
+                                        class="text-center mb-12 sm:mb-16">
+                                        <h2
+                                            class="text-white text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold mb-4">
+                                            Inversiones</h2>
+                                        <p
+                                            class="text-white text-lg sm:text-xl md:text-2xl lg:text-3xl shadow-md p-4 rounded-lg bg-orange-500 text-black/80">
+                                            Iniciativas estratégicas
+                                            para el
+                                            desarrollo
+                                            sostenible de las
+                                            familias
+                                            miembro</p>
+
+                                    </div>
+
+                                    <!-- Proyecto Tara -->
+                                    <div
+                                        class="grid md:grid-cols-2 bg-green-900/85 rounded-lg flex flex-col items-center justify-center p-4 sm:p-6 md:p-8 lg:p-10 xl:p-12 gap-8 mb-16">
+
+                                        <div
+                                            class="flex flex-col items-center justify-center">
+                                            <img src="img/6.webp"
+                                                alt="Proyecto Tara"
+                                                class="w-full h-auto rounded-lg shadow-lg">
+
+                                            <p
+                                                class="mt-4  text-lime-100 text-base sm:text-lg md:text-xl p-4">
+                                                Para mayor
+                                                información
+                                                visita <a
+                                                    href="https://www.boltrade.bo/"
+                                                    class="text-orange-500 hover:underline font-bold">Boltrade</a>
+                                            </p>
+
+                                        </div>
+
+                                        <p
+                                            class="text-lime-100 text-base sm:text-lg md:text-xl lg:text-2xl leading-tight rounded-lg p-4 ">
+                                            Socodevi, a través del
+                                            proyecto SAYARIY, apoyó
+                                            en la constitución de la
+                                            empresa Boltrade como
+                                            brazo empresarial de
+                                            ANAPROD para la
+                                            generación de valor en:
+                                            la industrialización y
+                                            comercialización de
+                                            productos que cumplan
+                                            estándares de calidad en
+                                            mercados nacionales e
+                                            internacionales.
+                                        </p>
+
+                                    </div>
+
+                                    <!-- Divisor -->
+                                    <!--///////// cadena de valor verde -->
+                                    <section
+                                        id="cadena-de-valor-verde">
+
+                                        <div
+                                            class>
+
+                                            <div
+                                                class="flex flex-col gap-8 md:col-span-1">
+
+                                                <h2
+                                                    class="bg-lime-100 text-lime-800 text-5xl p-4 rounded-lg font-bold text-center">
+                                                    Cadena de Valor
+                                                    Verde
+
+                                                </h2>
+
+                                                <p
+                                                    class="text-base sm:text-lg md:text-xl lg:text-2xl leading-tight rounded-lg p-4 text-lime-100">
+                                                    Como parte del
+                                                    Proyecto
+                                                    SAYARIY, ANAPROD
+                                                    adopta la
+                                                    estrateegia del
+                                                    desarrollo y
+                                                    consolidación de
+                                                    la cadena
+                                                    de valor verde
+                                                    de la tara,
+                                                    bajo un enfoque
+                                                    de
+                                                    incremento de
+                                                    ingreso y
+                                                    sostenibilidad
+                                                    ambiental.
+                                                    Esta estrategia
+                                                    integra
+                                                    prácticas
+                                                    agrícolas
+                                                    responsables
+                                                    para conectar
+                                                    eficazmente a
+                                                    productores,
+                                                    industrializadores
+                                                    y
+                                                    mercados.
+
+                                                </p>
+
+                                            </div>
+
+                                            <!------------foto CADENA DE VALOR VERDE -------->
+                                            <div
+                                                class="grid grid-cols-2 gap-8 p-4 md:col-span-1">
+                                                <div
+                                                    class="flex items-center justify-center">
+                                                    <img
+                                                        src="img/familia_1.png"
+                                                        alt="Proyecto Tara"
+                                                        class="rounded-lg shadow-lg">
+
+                                                </div>
+
+                                                <div
+                                                    class="flex items-center justify-center">
+                                                    <img
+                                                        src="img/familia_2.webp"
+                                                        alt="Proyecto Tara"
+                                                        class="rounded-lg shadow-lg">
+
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                        <br>
+                                        <br>
+                                        <div
+                                            class="text-center mb-12 sm:mb-16">
+                                            <h2
+                                                class="text-white text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold mb-4">
+                                                Alianzas</h2>
+                                            <p
+                                                class="text-lime-100 text-lg sm:text-xl md:text-2xl lg:text-3xl shadow-md p-4 rounded-lg bg-green-900/70">
+                                                ANAPROD trabaja en
+                                                alianza con
+                                                Gobiernos Autónomos
+                                                Municipales
+                                                en sus áreas de
+                                                acción.
+                                                Como aliados
+                                                estratégicos para
+                                                el desarrollo de sus
+                                                actividades, cuenta
+                                                con Socodevi
+                                                y Empoderar PAR
+                                                III.</p>
+
+                                        </div>
+
+                                        <div
+                                            class="grid grid-cols-2 gap-8 p-4 md:col-span-1">
+                                            <img
+                                                src="img/directorios/2.jpg.webp"
+                                                alt="Proyecto Tara"
+                                                class="rounded-lg shadow-lg">
+
+                                            <img
+                                                src="img/directorios/3.jpg.webp"
+                                                alt="Proyecto Tara"
+                                                class="rounded-lg shadow-lg">
+
+                                            <img
+                                                src="img/directorios/4.jpg.webp"
+                                                alt="Proyecto Tara"
+                                                class="rounded-lg shadow-lg">
+
+                                            <img
+                                                src="img/directorios/5.jpg.webp"
+                                                alt="Proyecto Tara"
+                                                class="rounded-lg shadow-lg">
+
+                                            <img
+                                                src="img/directorios/6.jpg.webp"
+                                                alt="Proyecto Tara"
+                                                class="rounded-lg shadow-lg">
+
+                                            <img
+                                                src="img/directorios/7.jpg.webp"
+                                                alt="Proyecto Tara"
+                                                class="rounded-lg shadow-lg">
+
+                                        </div>
+
+                                    </section>
+
+                                    <div
+                                        class="h-1 bg-gradient-to-r from-transparent via-green-300 to-transparent my-16"></div>
+
+                                    <!-- Nuevos Proyectos -->
+                                    <div
+                                        class="grid md:grid-cols-2 gap-12 items-center">
+                                        <div
+                                            class="bg-white rounded-2xl shadow-xl p-8 order-1 md:order-2">
+                                            <h4
+                                                class="text-center text-3xl font-bold text-lime-950 mb-4">Resultados</h4>
+
+                                            <div
+                                                class="grid grid-cols-3 gap-4 mb-8">
+
+                                                <div
+                                                    class="bg-lime-300 rounded-xl p-4 text-center">
+                                                    <div
+                                                        class="text-3xl font-bold text-emerald-600 mb-2">👥</div>
+                                                    <p
+                                                        class="text-sm font-semibold text-emerald-900">Familias
+                                                        Empoderadas</p>
+                                                </div>
+                                                <div
+                                                    class="bg-lime-300 rounded-xl p-4 text-center">
+                                                    <div
+                                                        class="text-3xl font-bold text-green-600 mb-2">💼</div>
+                                                    <p
+                                                        class="text-sm font-semibold text-green-900">Empleo
+                                                        Generado</p>
+                                                </div>
+                                                <div
+                                                    class="bg-lime-300 rounded-xl p-4 text-center">
+                                                    <div
+                                                        class="text-3xl font-bold text-lime-600 mb-2">🌱</div>
+                                                    <p
+                                                        class="text-sm font-semibold text-lime-900">Diversificación</p>
+                                                </div>
+                                            </div>
+
+                                            <p
+                                                class="text-gray-700 mb-4">Motor
+                                                del empoderamiento
+                                                de familias y
+                                                regiones rurales de
+                                                Bolivia, creando
+                                                oportunidades
+                                                de generación de
+                                                empleo e
+                                                ingresos.</p>
+
+                                            <ul class="space-y-3">
+                                                <li
+                                                    class="flex items-start">
+                                                    <span
+                                                        class="text-green-600 font-bold mr-3">✓</span>
+                                                    <span
+                                                        class="text-gray-700"><strong>Igualdad
+                                                            de
+                                                            género:</strong>
+                                                    </span>
+                                                </li>
+                                                <li
+                                                    class="flex items-start">
+                                                    <span
+                                                        class="text-green-600 font-bold mr-3">✓</span>
+                                                    <span
+                                                        class="text-gray-700"><strong>Beneficio
+                                                            para
+                                                            jóvenes:</strong>
+                                                        Acceso a
+                                                        oportunidades</span>
+                                                </li>
+                                                <li
+                                                    class="flex items-start">
+                                                    <span
+                                                        class="text-green-600 font-bold mr-3">✓</span>
+                                                    <span
+                                                        class="text-gray-700"><strong>Empoderamiento
+                                                            familiar:</strong>
+                                                        Decisiones
+                                                        económicas
+                                                        propias</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        <div
+                                            class="space-y-6 order-2 md:order-1">
+                                            <div
+                                                class="inline-block bg-lime-400 text-green-800 px-6 py-2 rounded-lg text-sm font-bold">
+                                                OPORTUNIDADES
+                                            </div>
+                                            <h3
+                                                class="text-3xl md:text-4xl font-bold text-white">Generando
+                                                Nuevos Proyectos
+                                            </h3>
+
+                                            <div
+                                                class="bg-gradient-to-br from-green-950 to-green-800 emerald-50 rounded-xl border-2 border-green-950 p-6">
+
+                                                <p
+                                                    class="text-amber-100 mb-4">ANAPROD
+                                                    busca
+                                                    consolidarse
+                                                    como una
+                                                    herramienta
+                                                    clave
+                                                    para
+                                                    el
+                                                    desarrollo
+                                                    sostenible de
+                                                    Bolivia.</p>
+
+                                                <div
+                                                    class="space-y-3">
+                                                    <div
+                                                        class="flex items-start">
+                                                        <span
+                                                            class="text-amber-100 text-2xl mr-3">🎯</span>
+                                                        <div>
+                                                            <p
+                                                                class="font-semibold text-amber-100">Diversificación
+                                                                de
+                                                                Cultivos</p>
+                                                            <p
+                                                                class="text-sm text-amber-50">Expandir
+                                                                hacia
+                                                                otros
+                                                                cultivos
+                                                                estratégicos
+                                                                más
+                                                                allá
+                                                                de
+                                                                la
+                                                                Tara</p>
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        class="flex items-start">
+                                                        <span
+                                                            class="text-amber-100 text-2xl mr-3">🌍</span>
+                                                        <div>
+                                                            <p
+                                                                class="font-semibold text-amber-100">Resiliencia
+                                                                Climática</p>
+                                                            <p
+                                                                class="text-sm text-amber-50">Implementar
+                                                                prácticas
+                                                                sostenibles
+                                                                adaptadas
+                                                                al
+                                                                cambio
+                                                                climático</p>
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        class="flex items-start">
+                                                        <span
+                                                            class="text-amber-100 text-2xl mr-3">📈</span>
+                                                        <div>
+                                                            <p
+                                                                class="font-semibold text-amber-100">Generación
+                                                                de
+                                                                Ingresos
+                                                                Sostenida
+                                                            </p>
+                                                            <p
+                                                                class="text-sm text-amber-50">Asegurar
+                                                                ingresos
+                                                                estables
+                                                                y
+                                                                crecientes
+                                                                a
+                                                                largo
+                                                                plazo</p>
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        class="flex items-start">
+
+                                                        <img
+                                                            src="img/igualdad-de-genero.png"
+                                                            alt="Igualdad de Género"
+                                                            class="w-8 h-8 mr-3 inline-block">
+                                                        <div>
+                                                            <p
+                                                                class="font-semibold text-amber-100">Igualdad
+                                                                de
+                                                                Género</p>
+                                                            <p
+                                                                class="text-sm text-amber-50">Participación
+                                                                equitativa
+                                                                en
+                                                                decisiones</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div
+                                                class="bg-gradient-to-r from-yellow-50 to-amber-50 rounded-2xl border-l-4 border-yellow-400 shadow-lg p-6 sm:p-8 md:p-10">
+                                                <h4
+                                                    class="text-xl sm:text-2xl font-bold text-green-800 mb-4">Nuestro
+                                                    Compromiso como Familia</h4>
+
+                                                <div
+                                                    class="space-y-4 text-gray-800 leading-relaxed">
+                                                    <p
+                                                        class="text-base sm:text-lg">
+                                                        <span
+                                                            class="font-semibold text-green-700">En
+                                                            ANAPROD nos
+                                                            consideramos una
+                                                            gran familia,</span>
+                                                        integrada por pequeños
+                                                        productores y
+                                                        productoras, a quienes
+                                                        brindamos asistencia
+                                                        técnica constante,
+                                                        fortaleciendo sus
+                                                        capacidades productivas
+                                                        y organizativas.
+                                                    </p>
+
+                                                    <p
+                                                        class="text-base sm:text-lg">
+                                                        Trabajamos con un <span
+                                                            class="font-semibold text-green-700">enfoque
+                                                            de género,</span>
+                                                        promovemos el cuidado
+                                                        del medio ambiente y
+                                                        apostamos por un
+                                                        desarrollo que respete
+                                                        la naturaleza y las
+                                                        futuras generaciones.
+                                                    </p>
+
+                                                    <div
+                                                        class="bg-white rounded-lg p-4 border-l-4 border-green-600 mt-6">
+                                                        <p
+                                                            class="text-base sm:text-lg text-gray-800">
+                                                            <span
+                                                                class="font-bold text-green-700">Nuestro
+                                                                compromiso
+                                                                es</span> seguir
+                                                            creciendo, formando
+                                                            jóvenes líderes,
+                                                            fortaleciendo
+                                                            nuestras
+                                                            organizaciones de
+                                                            base y construyendo
+                                                            un futuro más justo,
+                                                            inclusivo y
+                                                            sostenible para
+                                                            todas y todos.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </section>
+                            <!--///////// como ser socio -->
                             <section id="como-ser-socio"
                                 class="w-full bg-gradient-to-br from-green-950 to-green-950 py-20">
                                 <div
                                     class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-                                    <div class="text-center mb-12 sm:mb-16">
+                                    <div
+                                        class="text-center mb-12 sm:mb-16">
                                         <h2
                                             class="text-lime-400 text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
                                             Afiliación
@@ -1092,9 +1692,12 @@
                                         <p
                                             class="text-[#FBE8DA] text-sm sm:text-base md:text-lg lg:text-xl max-w-3xl mx-auto px-2">
                                             ¿Qué
-                                            requisitos debe cumplir una familia
+                                            requisitos debe
+                                            cumplir una
+                                            familia
                                             para ser
-                                            parte de ANAPROD?</p>
+                                            parte de
+                                            ANAPROD?</p>
                                     </div>
 
                                     <div
@@ -1109,29 +1712,21 @@
                                                         class="bg-green-600 text-white rounded-full w-8 h-8 flex items-center justify-center mr-3">✓</span>
                                                     Requisitos
                                                 </h3>
-                                                <ul class="space-y-4">
+                                                <ul
+                                                    class="space-y-4">
                                                     <li
                                                         class="flex items-start">
                                                         <span
                                                             class="text-green-600 font-bold mr-3 mt-1">•</span>
                                                         <span
                                                             class="text-gray-700">Ser
-                                                            productor de un
-                                                            cultivo estratégico,
-                                                            identificado
-                                                            por ANAPROD</span>
-                                                    </li>
-                                                    <li
-                                                        class="flex items-start">
-                                                        <span
-                                                            class="text-green-600 font-bold mr-3 mt-1">•</span>
-                                                        <span
-                                                            class="text-gray-700">Contar
-                                                            con un terreno
-                                                            agrícola en un
-                                                            municipio
+                                                            productor
                                                             de
-                                                            cobertura de
+                                                            un
+                                                            cultivo
+                                                            estratégico,
+                                                            identificado
+                                                            por
                                                             ANAPROD</span>
                                                     </li>
                                                     <li
@@ -1140,12 +1735,37 @@
                                                             class="text-green-600 font-bold mr-3 mt-1">•</span>
                                                         <span
                                                             class="text-gray-700">Contar
-                                                            con cédulas de
-                                                            identidad vigentes
+                                                            con
+                                                            un
+                                                            terreno
+                                                            agrícola
+                                                            en
+                                                            un
+                                                            municipio
+                                                            de
+                                                            cobertura
+                                                            de
+                                                            ANAPROD</span>
+                                                    </li>
+                                                    <li
+                                                        class="flex items-start">
+                                                        <span
+                                                            class="text-green-600 font-bold mr-3 mt-1">•</span>
+                                                        <span
+                                                            class="text-gray-700">Contar
+                                                            con
+                                                            cédulas
+                                                            de
+                                                            identidad
+                                                            vigentes
                                                             del
                                                             esposo,
-                                                            esposa u otro
-                                                            miembro de la
+                                                            esposa
+                                                            u
+                                                            otro
+                                                            miembro
+                                                            de
+                                                            la
                                                             familia</span>
                                                     </li>
                                                     <li
@@ -1154,8 +1774,11 @@
                                                             class="text-green-600 font-bold mr-3 mt-1">•</span>
                                                         <span
                                                             class="text-gray-700">LLenar
-                                                            el formulario de
-                                                            Solicitud de
+                                                            el
+                                                            formulario
+                                                            de
+                                                            Solicitud
+                                                            de
                                                             Membresía</span>
                                                     </li>
                                                     <li
@@ -1164,11 +1787,20 @@
                                                             class="text-green-600 font-bold mr-3 mt-1">•</span>
                                                         <span
                                                             class="text-gray-700">Realizar
-                                                            el aporte de $us.
-                                                            15.00 para membresía
+                                                            el
+                                                            aporte
+                                                            de
+                                                            $us.
+                                                            15.00
+                                                            para
+                                                            membresía
                                                             o su
-                                                            equivalente a tipo
-                                                            de cambio oficial
+                                                            equivalente
+                                                            a
+                                                            tipo
+                                                            de
+                                                            cambio
+                                                            oficial
                                                             <span
                                                                 class="font-semibold">(Bs.
                                                                 105.00)</span></span>
@@ -1192,7 +1824,8 @@
 
                                                 </h3>
 
-                                                <ul class="space-y-4">
+                                                <ul
+                                                    class="space-y-4">
                                                     <li
                                                         class="flex items-start bg-green-50 rounded-lg p-4">
                                                         <span
@@ -1256,75 +1889,99 @@
                                             <div
                                                 class="grid md:grid-cols-2 gap-6">
                                                 <div>
-                                                    <label for="nombre"
+                                                    <label
+                                                        for="nombre"
                                                         class="block text-sm font-semibold text-gray-700 mb-2">Nombre
                                                         *</label>
-                                                    <input type="text"
+                                                    <input
+                                                        type="text"
                                                         id="nombre"
-                                                        name="nombre" required
+                                                        name="nombre"
+                                                        required
                                                         class="w-full border-2 border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:border-green-600 focus:ring-2 focus:ring-green-200 transition">
                                                 </div>
                                                 <div>
-                                                    <label for="apellido"
+                                                    <label
+                                                        for="apellido"
                                                         class="block text-sm font-semibold text-gray-700 mb-2">Apellido
                                                         *</label>
-                                                    <input type="text"
+                                                    <input
+                                                        type="text"
                                                         id="apellido"
-                                                        name="apellido" required
+                                                        name="apellido"
+                                                        required
                                                         class="w-full border-2 border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:border-green-600 focus:ring-2 focus:ring-green-200 transition">
                                                 </div>
                                             </div>
                                             <div
                                                 class="grid md:grid-cols-2 gap-6">
                                                 <div>
-                                                    <label for="telefono"
+                                                    <label
+                                                        for="telefono"
                                                         class="block text-sm font-semibold text-gray-700 mb-2">Número
                                                         de
-                                                        Teléfono *</label>
-                                                    <input type="tel"
+                                                        Teléfono
+                                                        *</label>
+                                                    <input
+                                                        type="tel"
                                                         id="telefono"
-                                                        name="telefono" required
+                                                        name="telefono"
+                                                        required
                                                         class="w-full border-2 border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:border-green-600 focus:ring-2 focus:ring-green-200 transition">
                                                 </div>
                                                 <div>
-                                                    <label for="email"
+                                                    <label
+                                                        for="email"
                                                         class="block text-sm font-semibold text-gray-700 mb-2">Correo
-                                                        Electrónico *</label>
-                                                    <input type="email"
-                                                        id="email" name="email"
+                                                        Electrónico
+                                                        *</label>
+                                                    <input
+                                                        type="email"
+                                                        id="email"
+                                                        name="email"
                                                         required
                                                         class="w-full border-2 border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:border-green-600 focus:ring-2 focus:ring-green-200 transition">
                                                 </div>
                                             </div>
                                             <div>
-                                                <label for="direccion"
+                                                <label
+                                                    for="direccion"
                                                     class="block text-sm font-semibold text-gray-700 mb-2">Dirección
                                                     *</label>
-                                                <input type="text"
+                                                <input
+                                                    type="text"
                                                     id="direccion"
-                                                    name="direccion" required
+                                                    name="direccion"
+                                                    required
                                                     class="w-full border-2 border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:border-green-600 focus:ring-2 focus:ring-green-200 transition">
                                             </div>
                                             <div>
-                                                <label for="municipio"
+                                                <label
+                                                    for="municipio"
                                                     class="block text-sm font-semibold text-gray-700 mb-2">Municipio
                                                     *</label>
-                                                <input type="text"
+                                                <input
+                                                    type="text"
                                                     id="municipio"
-                                                    name="municipio" required
+                                                    name="municipio"
+                                                    required
                                                     class="w-full border-2 border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:border-green-600 focus:ring-2 focus:ring-green-200 transition">
                                             </div>
                                             <div>
-                                                <label for="departamento"
+                                                <label
+                                                    for="departamento"
                                                     class="block text-sm font-semibold text-gray-700 mb-2">Departamento
                                                     *</label>
-                                                <input type="text"
+                                                <input
+                                                    type="text"
                                                     id="departamento"
-                                                    name="departamento" required
+                                                    name="departamento"
+                                                    required
                                                     class="w-full border-2 border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:border-green-600 focus:ring-2 focus:ring-green-200 transition">
                                             </div>
                                             <div class="pt-4">
-                                                <input type="submit"
+                                                <input
+                                                    type="submit"
                                                     value="Enviar Solicitud"
                                                     class="w-full bg-gradient-to-r from-green-600 to-emerald-600 text-white font-bold py-3 rounded-lg hover:shadow-lg transition transform hover:scale-105 cursor-pointer text-lg">
                                             </div>
@@ -1332,305 +1989,13 @@
                                     </div>
                                 </div>
                             </section>
-
-                            <!-- Proyectos -->
-
-                            <section id="nuestros-proyectos"
-                                class="w-full min-h-screen flex items-center justify-center py-20"
-                                style="background-image: url('img/proyectos.jpg'); background-size: cover; background-position: center; background-attachment: fixed;">
-                                >
-
-                                <div
-                                    class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-                                    <div class="text-center mb-12 sm:mb-16">
-                                        <h2
-                                            class="text-white text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold mb-4">
-                                            Proyectos</h2>
-                                        <p
-                                            class="text-lime-400 text-lg sm:text-xl md:text-2xl lg:text-3xl shadow-md p-4 rounded-lg bg-green-900/70">
-                                            Iniciativas estratégicas para el
-                                            desarrollo
-                                            sostenible de las familias
-                                            miembro</p>
-                                    </div>
-
-                                    <!-- Proyecto Tara -->
-
-                                    <div
-                                        class="grid md:grid-cols-2 gap-12 items-center mb-16">
-                                        <div class="space-y-6">
-                                            <div
-                                                class="inline-block bg-lime-400 text-green-800 px-6 py-2 rounded-lg text-sm font-bold">
-                                                PROYECTO ESTRATÉGICO
-                                            </div>
-                                            <h3
-                                                class="text-5xl md:text-4xl font-bold text-white">Cultivo
-                                                de Tara</h3>
-
-                                            <div class="space-y-4">
-
-                                                <div
-                                                    class="bg-white rounded-xl shadow-md p-6">
-                                                    <h4
-                                                        class="font-bold text-green-700 mb-3 flex items-center">
-                                                        <span
-                                                            class="bg-green-600 text-white rounded-full w-6 h-6 flex items-center justify-center mr-2 text-sm">1</span>
-                                                        Árbol de Tara
-                                                    </h4>
-                                                    <p
-                                                        class="text-gray-700 text-sm">Genera
-                                                        rentabilidad económica y
-                                                        cuida el medio
-                                                        ambiente. Tiene una vida
-                                                        productiva de más de 100
-                                                        años.</p>
-                                                </div>
-
-                                                <div
-                                                    class="bg-white rounded-xl shadow-md p-6">
-                                                    <h4
-                                                        class="font-bold text-green-700 mb-3 flex items-center">
-                                                        <span
-                                                            class="bg-green-600 text-white rounded-full w-6 h-6 flex items-center justify-center mr-2 text-sm">2</span>
-                                                        Beneficios Ambientales
-                                                    </h4>
-                                                    <ul
-                                                        class="text-gray-700 text-sm space-y-1">
-                                                        <li>✓ Resistente a
-                                                            inclemencias
-                                                            climáticas</li>
-                                                        <li>✓ Evita erosión de
-                                                            suelos y recarga
-                                                            acuíferos</li>
-                                                        <li>✓ Favorece
-                                                            biodiversidad</li>
-                                                        <li>✓ Secuestra hasta
-                                                            250 kg de CO2 por
-                                                            árbol</li>
-                                                    </ul>
-                                                </div>
-
-                                                <div
-                                                    class="bg-white rounded-xl shadow-md p-6">
-                                                    <h4
-                                                        class="font-bold text-green-700 mb-3 flex items-center">
-                                                        <span
-                                                            class="bg-green-600 text-white rounded-full w-6 h-6 flex items-center justify-center mr-2 text-sm">3</span>
-                                                        Meta Ambiciosa
-                                                    </h4>
-                                                    <p
-                                                        class="text-gray-700 text-sm">Establecer
-                                                        1.5 millones de árboles
-                                                        de Tara en
-                                                        plantación definitiva
-                                                        para equilibrar ingresos
-                                                        económicos, medio
-                                                        ambiente y
-                                                        bienestar social.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                    <!-- Divisor -->
-                                    <div
-                                        class="h-1 bg-gradient-to-r from-transparent via-green-300 to-transparent my-16"></div>
-
-                                    <!-- Nuevos Proyectos -->
-                                    <div
-                                        class="grid md:grid-cols-2 gap-12 items-center">
-                                        <div
-                                            class="bg-white rounded-2xl shadow-xl p-8 order-1 md:order-2">
-                                            <h4
-                                                class="text-center text-3xl font-bold text-lime-950 mb-4">Resultados</h4>
-
-                                            <div
-                                                class="grid grid-cols-3 gap-4 mb-8">
-
-                                                <div
-                                                    class="bg-lime-300 rounded-xl p-4 text-center">
-                                                    <div
-                                                        class="text-3xl font-bold text-emerald-600 mb-2">👥</div>
-                                                    <p
-                                                        class="text-sm font-semibold text-emerald-900">Familias
-                                                        Empoderadas</p>
-                                                </div>
-                                                <div
-                                                    class="bg-lime-300 rounded-xl p-4 text-center">
-                                                    <div
-                                                        class="text-3xl font-bold text-green-600 mb-2">💼</div>
-                                                    <p
-                                                        class="text-sm font-semibold text-green-900">Empleo
-                                                        Generado</p>
-                                                </div>
-                                                <div
-                                                    class="bg-lime-300 rounded-xl p-4 text-center">
-                                                    <div
-                                                        class="text-3xl font-bold text-lime-600 mb-2">🌱</div>
-                                                    <p
-                                                        class="text-sm font-semibold text-lime-900">Diversificación</p>
-                                                </div>
-                                            </div>
-
-                                            <p class="text-gray-700 mb-4">Motor
-                                                del empoderamiento de familias y
-                                                regiones rurales de
-                                                Bolivia, creando oportunidades
-                                                de generación de empleo e
-                                                ingresos.</p>
-
-                                            <ul class="space-y-3">
-                                                <li class="flex items-start">
-                                                    <span
-                                                        class="text-green-600 font-bold mr-3">✓</span>
-                                                    <span
-                                                        class="text-gray-700"><strong>Igualdad
-                                                            de género:</strong>
-                                                    </span>
-                                                </li>
-                                                <li class="flex items-start">
-                                                    <span
-                                                        class="text-green-600 font-bold mr-3">✓</span>
-                                                    <span
-                                                        class="text-gray-700"><strong>Beneficio
-                                                            para
-                                                            jóvenes:</strong>
-                                                        Acceso a
-                                                        oportunidades</span>
-                                                </li>
-                                                <li class="flex items-start">
-                                                    <span
-                                                        class="text-green-600 font-bold mr-3">✓</span>
-                                                    <span
-                                                        class="text-gray-700"><strong>Empoderamiento
-                                                            familiar:</strong>
-                                                        Decisiones
-                                                        económicas
-                                                        propias</span>
-                                                </li>
-                                            </ul>
-                                        </div>
-
-                                        <div
-                                            class="space-y-6 order-2 md:order-1">
-                                            <div
-                                                class="inline-block bg-lime-400 text-green-800 px-6 py-2 rounded-lg text-sm font-bold">
-                                                OPORTUNIDADES
-                                            </div>
-                                            <h3
-                                                class="text-3xl md:text-4xl font-bold text-white">Generando
-                                                Nuevos Proyectos
-                                            </h3>
-
-                                            <div
-                                                class="bg-gradient-to-br from-green-950 to-green-800 emerald-50 rounded-xl border-2 border-green-950 p-6">
-
-                                                <p
-                                                    class="text-amber-100 mb-4">ANAPROD
-                                                    busca consolidarse como una
-                                                    herramienta clave
-                                                    para
-                                                    el
-                                                    desarrollo sostenible de
-                                                    Bolivia.</p>
-
-                                                <div class="space-y-3">
-                                                    <div
-                                                        class="flex items-start">
-                                                        <span
-                                                            class="text-amber-100 text-2xl mr-3">🎯</span>
-                                                        <div>
-                                                            <p
-                                                                class="font-semibold text-amber-100">Diversificación
-                                                                de Cultivos</p>
-                                                            <p
-                                                                class="text-sm text-amber-50">Expandir
-                                                                hacia otros
-                                                                cultivos
-                                                                estratégicos
-                                                                más
-                                                                allá de la
-                                                                Tara</p>
-                                                        </div>
-                                                    </div>
-                                                    <div
-                                                        class="flex items-start">
-                                                        <span
-                                                            class="text-amber-100 text-2xl mr-3">🌍</span>
-                                                        <div>
-                                                            <p
-                                                                class="font-semibold text-amber-100">Resiliencia
-                                                                Climática</p>
-                                                            <p
-                                                                class="text-sm text-amber-50">Implementar
-                                                                prácticas
-                                                                sostenibles
-                                                                adaptadas
-                                                                al
-                                                                cambio
-                                                                climático</p>
-                                                        </div>
-                                                    </div>
-                                                    <div
-                                                        class="flex items-start">
-                                                        <span
-                                                            class="text-amber-100 text-2xl mr-3">📈</span>
-                                                        <div>
-                                                            <p
-                                                                class="font-semibold text-amber-100">Generación
-                                                                de Ingresos
-                                                                Sostenida
-                                                            </p>
-                                                            <p
-                                                                class="text-sm text-amber-50">Asegurar
-                                                                ingresos
-                                                                estables y
-                                                                crecientes
-                                                                a
-                                                                largo
-                                                                plazo</p>
-                                                        </div>
-                                                    </div>
-                                                    <div
-                                                        class="flex items-start">
-
-                                                        <img
-                                                            src="img/igualdad-de-genero.png"
-                                                            alt="Igualdad de Género"
-                                                            class="w-8 h-8 mr-3 inline-block">
-                                                        <div>
-                                                            <p
-                                                                class="font-semibold text-amber-100">Igualdad
-                                                                de Género</p>
-                                                            <p
-                                                                class="text-sm text-amber-50">Participación
-                                                                equitativa en
-                                                                decisiones</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div
-                                                class="bg-yellow-50 rounded-xl border-l-4 border-yellow-400 p-4">
-                                                <p class="text-gray-800"><span
-                                                        class="font-bold">Compromiso:
-                                                    </span>Construir un
-                                                    futuro
-                                                    próspero y sostenible para
-                                                    todas las familias
-                                                    miembro.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </section>
-
+                            <!--///////// como apoyar -->
                             <section id="como-apoyar"
                                 class="w-full bg-[#FBE8DA] py-20">
                                 <div
                                     class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-                                    <div class="text-center mb-12 sm:mb-16">
+                                    <div
+                                        class="text-center mb-12 sm:mb-16">
                                         <h2
                                             class="text-6xl font-bold text-green-700 mb-3">
                                             Involúcrate
@@ -1648,10 +2013,16 @@
                                                     class="bg-green-600 text-white rounded-full w-8 h-8 flex items-center justify-center mr-3">💰</span>
                                                 DONACIONES
                                             </h3>
-                                            <p class="text-gray-700 mb-6">
-                                                Las contribuciones a Anaprod en
-                                                dinero o especie, son muy
-                                                importantes para apoyar su
+                                            <p
+                                                class="text-gray-700 mb-6">
+                                                Las
+                                                contribuciones a
+                                                Anaprod
+                                                en
+                                                dinero o
+                                                especie, son muy
+                                                importantes para
+                                                apoyar su
                                                 desarrollo.
                                             </p>
 
@@ -1660,12 +2031,19 @@
                                                 <h4
                                                     class="text-xl font-semibold text-green-600 mb-4">Donaciones
                                                     Personales</h4>
-                                                <p class="text-gray-700 mb-4">
-                                                    Aportes voluntarios de
+                                                <p
+                                                    class="text-gray-700 mb-4">
+                                                    Aportes
+                                                    voluntarios
+                                                    de
                                                     dinero
-                                                    Usted puede realizar un
-                                                    aporte voluntario en los
-                                                    siguientes montos:
+                                                    Usted puede
+                                                    realizar un
+                                                    aporte
+                                                    voluntario
+                                                    en los
+                                                    siguientes
+                                                    montos:
                                                 </p>
                                                 <div
                                                     class="flex flex-wrap gap-2 mb-4">
@@ -1678,17 +2056,23 @@
                                                     <span
                                                         class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-medium">otro</span>
                                                 </div>
-                                                <p class="text-gray-700 mb-4">
-                                                    Esta donación se puede
-                                                    realizar 1 o más veces.
+                                                <p
+                                                    class="text-gray-700 mb-4">
+                                                    Esta
+                                                    donación se
+                                                    puede
+                                                    realizar 1 o
+                                                    más veces.
                                                 </p>
-                                                <img src="img/qr-code.png"
+                                                <img
+                                                    src="img/qr-code.png"
                                                     alt="QR Code"
                                                     class="max-w-xs mx-auto mb-4">
 
                                                 <p
                                                     class="text-green-600 font-semibold text-center">
-                                                    GRACIAS POR TU APOYO
+                                                    GRACIAS POR
+                                                    TU APOYO
                                                 </p>
                                             </div>
 
@@ -1697,20 +2081,32 @@
                                                 <h4
                                                     class="text-xl font-semibold text-green-600 mb-4">Donaciones
                                                     Empresariales</h4>
-                                                <p class="text-gray-700 mb-4">
-                                                    Si representas a una
-                                                    organización interesada en
-                                                    trabajar junto a ANAPROD,
+                                                <p
+                                                    class="text-gray-700 mb-4">
+                                                    Si
+                                                    representas
+                                                    a una
+                                                    organización
+                                                    interesada
+                                                    en
+                                                    trabajar
+                                                    junto a
+                                                    ANAPROD,
                                                     por
                                                     favor
                                                     deja
-                                                    tus datos y un
-                                                    representante se comunicará
+                                                    tus datos y
+                                                    un
+                                                    representante
+                                                    se
+                                                    comunicará
                                                     contigo
                                                 </p>
-                                                <a href="#contacto"
+                                                <a
+                                                    href="#contacto"
                                                     class="w-full block text-center bg-gradient-to-r from-emerald-600 to-green-600 text-white font-bold py-3 px-6 rounded-lg hover:shadow-lg transition transform hover:scale-105">
-                                                    Deja tus datos
+                                                    Deja tus
+                                                    datos
                                                 </a>
                                             </div>
                                         </div>
@@ -1724,13 +2120,19 @@
                                                     class="bg-emerald-600 text-white rounded-full w-8 h-8 flex items-center justify-center mr-3">🤝</span>
                                                 VOLUNTARIADO
                                             </h3>
-                                            <p class="text-gray-700 mb-6">
-                                                Puedes ofrecer tu tiempo y/o tu
-                                                experiencia para contribuir y
+                                            <p
+                                                class="text-gray-700 mb-6">
+                                                Puedes ofrecer
+                                                tu tiempo y/o
+                                                tu
+                                                experiencia para
+                                                contribuir
+                                                y
                                                 apoyar la
                                                 transformación
                                                 de la
-                                                vida de miles de personas.
+                                                vida de miles de
+                                                personas.
                                             </p>
                                             <a href="#contacto"
                                                 class="w-full block text-center bg-gradient-to-r from-emerald-600 to-green-600 text-white font-bold py-3 px-6 rounded-lg hover:shadow-lg transition transform hover:scale-105">
@@ -1740,7 +2142,7 @@
                                     </div>
                                 </div>
                             </section>
-
+                            <!--///////// contacto -->
                             <section id="contacto"
                                 class="w-full min-h-screen flex items-center justify-center"
                                 style="background-image: url('img/fondo ANAPROD.png'); background-size: cover; background-position: center; background-attachment: fixed;">
@@ -1766,12 +2168,15 @@
                                             <div
                                                 class="grid md:grid-cols-3 gap-6">
                                                 <div>
-                                                    <label for="nombre"
+                                                    <label
+                                                        for="nombre"
                                                         class="block text-sm font-semibold text-green-900 mb-2">Nombre:
                                                     </label>
-                                                    <input type="text"
+                                                    <input
+                                                        type="text"
                                                         id="nombre"
-                                                        name="nombre" required
+                                                        name="nombre"
+                                                        required
                                                         placeholder="campo obligatorio"
                                                         class="w-full border-2 border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:border-green-600 focus:ring-2 focus:ring-green-200 transition">
                                                 </div>
@@ -1780,7 +2185,8 @@
                                                         for="apellido-paterno"
                                                         class="block text-sm font-semibold text-green-900 mb-2">Apellido
                                                         Paterno</label>
-                                                    <input type="text"
+                                                    <input
+                                                        type="text"
                                                         id="apellido-paterno"
                                                         name="apellido-paterno"
                                                         required
@@ -1792,7 +2198,8 @@
                                                         for="apellido-materno"
                                                         class="block text-sm font-semibold text-green-900 mb-2">Apellido
                                                         Materno</label>
-                                                    <input type="text"
+                                                    <input
+                                                        type="text"
                                                         id="apellido-materno"
                                                         name="apellido-materno"
                                                         required
@@ -1804,19 +2211,25 @@
                                             <div
                                                 class="grid md:grid-cols-2 gap-6">
                                                 <div>
-                                                    <label for="celular"
+                                                    <label
+                                                        for="celular"
                                                         class="block text-sm font-semibold text-green-900 mb-2">Celular:</label>
-                                                    <input type="tel"
+                                                    <input
+                                                        type="tel"
                                                         id="celular"
-                                                        name="celular" required
+                                                        name="celular"
+                                                        required
                                                         placeholder="celular"
                                                         class="w-full border-2 border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:border-green-600 focus:ring-2 focus:ring-green-200 transition">
                                                 </div>
                                                 <div>
-                                                    <label for="email"
+                                                    <label
+                                                        for="email"
                                                         class="block text-sm font-semibold text-green-900 mb-2">Email:</label>
-                                                    <input type="email"
-                                                        id="email" name="email"
+                                                    <input
+                                                        type="email"
+                                                        id="email"
+                                                        name="email"
                                                         required
                                                         placeholder="tu correo electrónico"
                                                         class="w-full border-2 border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:border-green-600 focus:ring-2 focus:ring-green-200 transition">
@@ -1828,26 +2241,31 @@
                                                 class="bg-gray-50 rounded-lg p-6">
                                                 <h4
                                                     class="text-lg font-semibold text-green-900  mb-4">Empresa
-                                                    (si corresponde):</h4>
+                                                    (si
+                                                    corresponde):</h4>
                                                 <div
                                                     class="grid md:grid-cols-2 gap-6">
                                                     <div>
                                                         <label
                                                             for="nombre-organizacion"
                                                             class="block text-sm font-semibold text-green-900 mb-2">Nombre
-                                                            de la
+                                                            de
+                                                            la
                                                             organización:</label>
-                                                        <input type="text"
+                                                        <input
+                                                            type="text"
                                                             id="nombre-organizacion"
                                                             name="nombre-organizacion"
                                                             class="w-full border-2 border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:border-green-600 focus:ring-2 focus:ring-green-200 transition">
                                                     </div>
                                                     <div>
-                                                        <label for="cargo"
+                                                        <label
+                                                            for="cargo"
                                                             class="block text-sm font-semibold text-green-900 mb-2">Cargo
                                                             que
                                                             desempeña:</label>
-                                                        <input type="text"
+                                                        <input
+                                                            type="text"
                                                             id="cargo"
                                                             name="cargo"
                                                             class="w-full border-2 border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:border-green-600 focus:ring-2 focus:ring-green-200 transition">
@@ -1859,7 +2277,8 @@
                                                         <label
                                                             for="direccion-empresa"
                                                             class="block text-sm font-semibold text-green-900 mb-2">Dirección:</label>
-                                                        <input type="text"
+                                                        <input
+                                                            type="text"
                                                             id="direccion-empresa"
                                                             name="direccion-empresa"
                                                             class="w-full border-2 border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:border-green-600 focus:ring-2 focus:ring-green-200 transition">
@@ -1868,16 +2287,20 @@
                                                         <label
                                                             for="telefono-empresa"
                                                             class="block text-sm font-semibold text-green-900 mb-2">Teléfono:</label>
-                                                        <input type="tel"
+                                                        <input
+                                                            type="tel"
                                                             id="telefono-empresa"
                                                             name="telefono-empresa"
                                                             class="w-full border-2 border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:border-green-600 focus:ring-2 focus:ring-green-200 transition">
                                                     </div>
                                                 </div>
-                                                <div class="mt-6">
-                                                    <label for="email-empresa"
+                                                <div
+                                                    class="mt-6">
+                                                    <label
+                                                        for="email-empresa"
                                                         class="block text-sm font-semibold text-green-900 mb-2">Email:</label>
-                                                    <input type="email"
+                                                    <input
+                                                        type="email"
                                                         id="email-empresa"
                                                         name="email-empresa"
                                                         class="w-full border-2 border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:border-green-600 focus:ring-2 focus:ring-green-200 transition">
@@ -1886,17 +2309,21 @@
 
                                             <!-- Mensaje -->
                                             <div>
-                                                <label for="mensaje"
+                                                <label
+                                                    for="mensaje"
                                                     class="block text-sm font-semibold text-green-900 mb-2">Motivo
                                                     del
                                                     contacto:</label>
-                                                <textarea id="mensaje"
-                                                    name="mensaje" rows="4"
+                                                <textarea
+                                                    id="mensaje"
+                                                    name="mensaje"
+                                                    rows="4"
                                                     class="w-full border-2 border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:border-green-600 focus:ring-2 focus:ring-green-200 transition"></textarea>
                                             </div>
 
                                             <div class="pt-4">
-                                                <input type="submit"
+                                                <input
+                                                    type="submit"
                                                     value="Enviar"
                                                     class="w-full bg-gradient-to-r from-green-600 to-emerald-600 text-white font-bold py-3 rounded-lg hover:shadow-lg transition transform hover:scale-105 cursor-pointer text-lg">
                                             </div>
@@ -1906,7 +2333,7 @@
                             </section>
 
                         </main>
-
+                        <!--///////// footer -->
                         <footer
                             class="bg-gradient-to-br from-gray-900 to-emerald-900 text-white">
                             <div
@@ -1930,14 +2357,20 @@
                                         </div>
                                         <p
                                             class="text-emerald-100 leading-relaxed mb-4">
-                                            Asociación Nacional de Productores,
-                                            fortaleciendo el desarrollo
-                                            sostenible en Bolivia.
+                                            Asociación Nacional
+                                            de
+                                            Productores,
+                                            fortaleciendo el
+                                            desarrollo
+                                            sostenible en
+                                            Bolivia.
                                         </p>
-                                        <div class="flex space-x-3">
+                                        <div
+                                            class="flex space-x-3">
                                             <a href="#"
                                                 class="bg-white/10 p-2 rounded-lg hover:bg-emerald-600 transition-colors">
-                                                <svg class="w-5 h-5"
+                                                <svg
+                                                    class="w-5 h-5"
                                                     fill="currentColor"
                                                     viewBox="0 0 24 24">
                                                     <path
@@ -1946,7 +2379,8 @@
                                             </a>
                                             <a href="#"
                                                 class="bg-white/10 p-2 rounded-lg hover:bg-emerald-600 transition-colors">
-                                                <svg class="w-5 h-5"
+                                                <svg
+                                                    class="w-5 h-5"
                                                     fill="currentColor"
                                                     viewBox="0 0 24 24">
                                                     <path
@@ -1955,10 +2389,12 @@
                                             </a>
                                             <a href="#"
                                                 class="bg-white/10 p-2 rounded-lg hover:bg-emerald-600 transition-colors">
-                                                <svg class="w-5 h-5"
+                                                <svg
+                                                    class="w-5 h-5"
                                                     fill="currentColor"
                                                     viewBox="0 0 24 24">
-                                                    <rect fill="none"
+                                                    <rect
+                                                        fill="none"
                                                         height="24"
                                                         width="24" />
                                                     <path
@@ -1974,31 +2410,36 @@
                                             Rápidos</h3>
                                         <ul class="space-y-2">
                                             <li>
-                                                <a href="#que-es-anaprod"
+                                                <a
+                                                    href="#que-es-anaprod"
                                                     class="text-emerald-100 hover:text-white transition-colors">
                                                     ANAPROD
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="#organizacion"
+                                                <a
+                                                    href="#organizacion"
                                                     class="text-emerald-100 hover:text-white transition-colors">
                                                     Organización
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="#nuestros-proyectos"
+                                                <a
+                                                    href="#nuestros-proyectos"
                                                     class="text-emerald-100 hover:text-white transition-colors">
                                                     Proyectos
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="#como-ser-socio"
+                                                <a
+                                                    href="#como-ser-socio"
                                                     class="text-emerald-100 hover:text-white transition-colors">
                                                     Afililación
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="#como-apoyar"
+                                                <a
+                                                    href="#como-apoyar"
                                                     class="text-emerald-100 hover:text-white transition-colors">
                                                     Involúcrate
                                                 </a>
@@ -2011,7 +2452,8 @@
                                             class="text-lg font-bold mb-4">Contacto</h3>
                                         <ul class="space-y-3">
 
-                                            <li class="flex items-center">
+                                            <li
+                                                class="flex items-center">
 
                                                 <span
                                                     class="text-emerald-100 w-full"><span>
@@ -2022,7 +2464,8 @@
                                                         74869000</span>
                                                 </li>
 
-                                                <li class="flex items-center">
+                                                <li
+                                                    class="flex items-center">
                                                     <div>
                                                         <svg
                                                             class="w-5 h-5 mr-2 flex-shrink-0 text-emerald-400"
@@ -2038,13 +2481,17 @@
                                                     <span
                                                         class="text-emerald-100">anaprod.directorio@gmail.com</span>
                                                 </li>
-                                                <li class="flex items-start">
+                                                <li
+                                                    class="flex items-start">
 
                                                     <span
                                                         class="text-emerald-100">
-                                                        Calle Camargo #309
+                                                        Calle
+                                                        Camargo
+                                                        #309
                                                         <br>
-                                                        Primera Planta
+                                                        Primera
+                                                        Planta
                                                         <br />
                                                         Sucre-Bolivia
                                                     </span>
@@ -2067,10 +2514,17 @@
                                         </div>
                                     </div>
 
-                                    <div class="border-t border-white/20 pt-8">
-                                        <p class="text-center text-emerald-100">
-                                            <span id="year"></span> ANAPROD -
-                                            Asociación Nacional de Productores.
+                                    <div
+                                        class="border-t border-white/20 pt-8">
+                                        <p
+                                            class="text-center text-emerald-100">
+                                            <span
+                                                id="year"></span>
+                                            ANAPROD
+                                            -
+                                            Asociación Nacional
+                                            de
+                                            Productores.
                                             Todos los derechos
                                             reservados.
                                         </p>
