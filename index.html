@@ -100,33 +100,55 @@
         </header>
 
         <script>
-        const menuToggle = document.getElementById('menu-toggle');
-        const mobileMenu = document.getElementById('mobile-menu');
-        const line1 = document.getElementById('line1');
-        const line2 = document.getElementById('line2');
-        const line3 = document.getElementById('line3');
+        document.addEventListener('DOMContentLoaded', function () {
+            const menuToggle = document.getElementById('menu-toggle');
+            const mobileMenu = document.getElementById('mobile-menu');
+            const line1 = document.getElementById('line1');
+            const line2 = document.getElementById('line2');
+            const line3 = document.getElementById('line3');
 
-        menuToggle.addEventListener('click', function () {
-            mobileMenu.classList.toggle('hidden');
+            if (menuToggle) {
+                menuToggle.addEventListener('click', function () {
+                    mobileMenu.classList.toggle('hidden');
 
-            // Animar el ícono hamburguesa
-            line1.classList.toggle('rotate-45');
-            line1.classList.toggle('translate-y-2');
-            line2.classList.toggle('opacity-0');
-            line3.classList.toggle('-rotate-45');
-            line3.classList.toggle('-translate-y-2');
-        });
+                    // Animar el ícono hamburguesa
+                    line1.classList.toggle('rotate-45');
+                    line1.classList.toggle('translate-y-2');
+                    line2.classList.toggle('opacity-0');
+                    line3.classList.toggle('-rotate-45');
+                    line3.classList.toggle('-translate-y-2');
+                });
+            }
 
-        // Cerrar menú al hacer clic en un enlace
-        const mobileMenuLinks = mobileMenu.querySelectorAll('a');
-        mobileMenuLinks.forEach(link => {
-            link.addEventListener('click', function () {
-                mobileMenu.classList.add('hidden');
-                line1.classList.remove('rotate-45', 'translate-y-2');
-                line2.classList.remove('opacity-0');
-                line3.classList.remove('-rotate-45', '-translate-y-2');
+            // Cerrar menú al hacer clic en un enlace
+            const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+            mobileMenuLinks.forEach(link => {
+                link.addEventListener('click', function () {
+                    mobileMenu.classList.add('hidden');
+                    line1.classList.remove('rotate-45', 'translate-y-2');
+                    line2.classList.remove('opacity-0');
+                    line3.classList.remove('-rotate-45', '-translate-y-2');
+                });
             });
-        }); 
+
+            const videoButton = document.getElementById('video-play-button');
+            const videoWrapper = document.getElementById('video-wrapper');
+
+            if (videoButton && videoWrapper) {
+                videoButton.addEventListener('click', function () {
+                    videoWrapper.innerHTML = `
+                        <iframe width="560" height="380"
+                            src="https://www.youtube.com/embed/hWIwUn8i3Zg?si=g07kekkdnG0_1dD2&amp;controls=0&amp;autoplay=1&rel=0&modestbranding=1&iv_load_policy=3"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin"
+                            allowfullscreen
+                            class="w-full mx-auto aspect-video rounded-[20px] shadow-lg"></iframe>
+                    `;
+                    videoWrapper.scrollIntoView({ behavior: 'smooth' });
+                });
+            }
+        });
     </script>
 
         <main class="flex-1 ">
@@ -197,9 +219,26 @@
 
                     <div class="p-4 sm:p-6 md:p-8 lg:p-10">
 
-                        <img src="img/directorio.jpeg"
-                            alt=" esta es la imagen de la cadena verde"
-                            class="w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl rounded-[20px]">
+                        <div
+                            id="video-wrapper"
+                            class="relative w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl mx-auto aspect-video bg-black rounded-[20px] overflow-hidden shadow-lg">
+                            <button
+                                id="video-play-button"
+                                type="button"
+                                class="relative flex items-center justify-center w-full h-full focus:outline-none">
+                                <img
+                                    src="img/boton_video co.webp"
+                                    alt="Vista previa del video ANAPROD"
+                                    class="absolute inset-0 w-full h-full object-cover">
+                                <div
+                                    class="absolute inset-0 bg-black/20 flex items-center justify-center">
+                                    <div
+                                        class="bg-red-600 hover:bg-red-700 text-white w-16 h-16 rounded-full flex items-center justify-center text-3xl">
+                                        ▶
+                                    </div>
+                                </div>
+                            </button>
+                        </div>
                     </div>
 
                 </div>
@@ -235,22 +274,19 @@
 
                                 <p
                                     class="text-base sm:text-lg leading-relaxed space-y-4">
-                                    Tengo el honor de dirigirme a ustedes como
-                                    presidenta de ANAPROD, una asociación que
-                                    nace del trabajo, la unión y la visión de
-                                    pequeños productores y productoras
-                                    comprometidos con el desarrollo sostenible
-                                    de nuestro país.
+                                    Como Presidenta en ejercicio, me dirijo a
+                                    ustedes para invitarlos a conocer el trabajo
+                                    de ANAPROD, una asociación que nace del
+                                    trabajo, la unión y la visión de pequeños
+                                    productores y productoras comprometidos con
+                                    el desarrollo sostenibe de nuestro país.
                                 </p>
                                 <p
                                     class="text-base sm:text-lg leading-relaxed space-y-4">
                                     Somos una asociación que se encuentra en
-                                    Bolivia, con presencia en seis
+                                    Bolivia, inicialmente con presencia en seis
                                     departamentos: La Paz, Cochabamba,
                                     Chuquisaca, Tarija, Santa Cruz y Potosí.
-                                </p>
-                                <p
-                                    class="text-base sm:text-lg leading-relaxed space-y-4">
                                     Nuestro trabajo se basa en el
                                     fortalecimiento de cadenas verdes de valor,
                                     apostando por una producción responsable y
@@ -258,28 +294,29 @@
                                 </p>
                                 <p
                                     class="text-base sm:text-lg leading-relaxed space-y-4">
-                                    La primera cadena que impulsamos como
-                                    asociación es la tara, un recurso de gran
-                                    potencial productivo, social y ambiental,
-                                    que representa una oportunidad real para
-                                    mejorar la calidad de vida de nuestras
-                                    familias productoras.
+                                    La Tara, es la primera iniciativa con
+                                    enfoque de cadena de valor que impulsamos
+                                    como asociación. Un cultivo de gran
+                                    potencial productivo, social y ambiental que
+                                    representa una oportunidad real para mejorar
+                                    la calidad de vida de nuestras familias
+                                    productoras.
                                 </p>
                                 <p
                                     class="text-base sm:text-lg leading-relaxed space-y-4">
                                     Contamos con el valioso apoyo de la ONG
-                                    SOCODEVI, de Canadá, que nos ha acompañado
-                                    en el proceso de conformación de nuestra
-                                    asociación y ha sido parte fundamental en la
-                                    construcción de nuestra planta
+                                    SOCODEVI, en el proceso de conformación de
+                                    nuestra asociación y es parte fundamental en
+                                    la construcción de nuestra planta
                                     industrializadora Boltrade, ubicada en
-                                    Tomina, Sucre.
+                                    Tomina, Chuquisaca.
                                 </p>
                                 <p
                                     class="text-base sm:text-lg leading-relaxed space-y-4">
-                                    Les invitamos a conocernos más y a ser parte
-                                    activa de este camino que recorremos juntos.
+                                    Les invito a conocernos más y a ser parte
+                                    activa de este camino que recorremos.
                                 </p>
+
                             </div>
                         </div>
                     </div>
